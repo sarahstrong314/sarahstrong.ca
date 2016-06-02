@@ -24,10 +24,6 @@ h3 {
   clear: both;
 }
 
-#active-algs h3 {
-  margin-bottom: 10px;
-}
-
 h3 small {
   font-size: 12px;
 }
@@ -104,19 +100,6 @@ nav li a:hover, nav h3:hover {
   font-size: smaller;
 }
 
-#cheat-sheet {
-  display: none;
-}
-
-#cheat-sheet table {
-  table-layout: fixed;
-  width: 100%;
-}
-
-#cheat-sheet table img {
-  width: 100%;
-}
-
 .tabs {
   width: 100%;
 }
@@ -161,61 +144,22 @@ a.button:hover {
   min-width: 450px;
 }
 
-#content ul.alg-list, #content ul.tabs {
+#content ul.tabs {
   list-style-type: none;
   float: left;
 }
 
-#content .alg-list li, #content .tabs li {
+#content .tabs li {
   display: inline;
   cursor: pointer;
-}
-
-#content ul li .alg-nickname, #content ul li .alg {
-  display: none;
 }
 
 #content ul li .details {
   display: inline;
 }
 
-.alg-list {
-  padding: 0;
-  clear: both;
-}
-
 .collapsible .section {
   display: none;
-}
-
-#active-algs {
-  display: none;
-  margin: 3em;
-}
-
-#active-algs .details {
-  display: block;
-  float: left;
-  margin-left: 5em;
-}
-
-#active-algs .details .alg {
-  display: block;
-}
-
-#active-algs {
-  min-width: 565px;
-  float: left;
-  width: 100%;
-}
-
-#active-algs li {
-  display: block;
-  height: 125px;
-}
-
-.width-100px .alg-list .overview, .alg-list.width-100px .overview {
-  width: 100px;
 }
 
 .width-75px .overview {
@@ -231,43 +175,6 @@ a.button:hover {
 
 .tall-images .overview {
   padding: 5px 5px 25px 5px;
-}
-
-#active-algs .overview {
-  padding: 5px 5px 15px 5px;
-}
-
-#active-algs a, a:visited {
-  padding-bottom: 5px;
-  text-decoration: none;
-}
-
-#active-algs.activateable img {
-  display: none;
-}
-
-#active-algs.show-all-images img {
-  display: inline;
-}
-
-#active-algs.show-all-images img.activateable {
-  padding-left: 10px;
-}
-
-#active-algs.activateable img.activateable {
-  display: inline;
-}
-
-.alg-list .activateable {
-  display: none;
-}
-
-#active-algs .deactivateable {
-  display: none;
-}
-
-.alg-list .activateable {
-  display: none !important;
 }
 
 .inactive {
@@ -288,26 +195,8 @@ a.button:hover {
   width: 100%;
 }
 
-#square-1-ep .alg-list {
-  width: 860px;
-  margin: 0;
-}
-
 .append-title {
   display: none;
-}
-
-/* I'm sorry. I didn't realize IDs couldn't start with a number. */
-[id='3x3x3-beginners-method'] h3 {
-  margin-top: 20px;
-}
-
-[id='3x3x3-beginners-method'] .step4 td {
-  width: 20%;
-}
-
-[id='3x3x3-ocllcp'] .alg-list {
-  width: 660px;
 }
 
 p img {
@@ -344,13 +233,4 @@ p img {
 .side-by-side img {
   display: block;
   padding-top: 10px;
-}
-
-#skewb-my-method .side-by-side, #skewb-my-method .side-by-side p {
-  width: 175px;
-}
-
-/* Guestbook */
-#guestbook {
-  width: 37em;
 }
