@@ -1,0 +1,3 @@
+name: Miss Strong's Teaching Portfolio
+markdown: redcarpet
+exclude: ['TODO', 'README.md', 'Gemfile', 'Gemfile.lock']
