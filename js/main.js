@@ -1,22 +1,7 @@
 $(document).ready(function() {
   $("#content").addClass($("#content > div").attr('id'));
 
-  $("nav li h3").click(function(ev) {
-    var $li = $(ev.target).closest("li");
-
-    if ($li.find("ul").is(":visible")) {
-      $li.find("ul").slideUp('fast');
-    } else {
-      $("nav li").not($li).find("ul").slideUp('fast');
-      $li.find("ul").slideDown('fast');
-    }
-  });
-
-  var path = document.location.pathname.replace('.html', '');
-  $("nav").find("a[href='" + path + "']").closest("ul").show();
-});
-
-// Switching sub-views of algorithms.
+  // Switching sub-views of algorithms.
   $(".tabs li").click(function(ev) {
     var $li = $(ev.target).closest("li");
     var $activeTab = $(".tabs li.active")
@@ -29,7 +14,7 @@ $(document).ready(function() {
       $(".tabs li").removeClass('active');
       $li.addClass('active');
 
-      $newSection = $(".section." + $li.attr('id'));
+    $newSection = $(".section." + $li.attr('id'));
 
       // Fade out old content if a tab was previously selected.
       if ($activeTab.length > 0) {
@@ -56,4 +41,19 @@ $(document).ready(function() {
         window.location.hash = newHash;
       }
     }
+  }); 
+
+  $("nav li h3").click(function(ev) {
+    var $li = $(ev.target).closest("li");
+
+    if ($li.find("ul").is(":visible")) {
+      $li.find("ul").slideUp('fast');
+    } else {
+      $("nav li").not($li).find("ul").slideUp('fast');
+      $li.find("ul").slideDown('fast');
+    }
   });
+
+  var path = document.location.pathname.replace('.html', '');
+  $("nav").find("a[href='" + path + "']").closest("ul").show();
+});
