@@ -38,8 +38,13 @@ p {
 }
 
 table {
-    table-layout: fixed;
-    width: 300px;
+  table-layout: fixed;
+  width: 300px;
+}
+
+.bottom-table td {
+  padding-top: 20px;
+  vertical-align: top;
 }
 
 .clearfix {
