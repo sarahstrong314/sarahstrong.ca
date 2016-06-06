@@ -42,14 +42,6 @@ table {
   width: 300px;
 }
 
-.bottom-table td {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  vertical-align: top;
-}
-
 .clearfix {
   clear: both;
 }
