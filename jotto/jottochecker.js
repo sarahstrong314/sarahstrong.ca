@@ -9,6 +9,7 @@ function checkWords() {
         count++;
         word2.replace(word1[i], '');
      }
+  }
   document.getElementById("Result1").innerHTML = 'Test';
   //document.getElementById("Result1").innerHTML = word1.toString() + ' and 'word2.toString() + ' have ' + count.toString() + ' letters in common.';
 }
