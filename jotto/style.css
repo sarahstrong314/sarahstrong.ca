@@ -9,7 +9,7 @@ body {
 
 br {
    display: block;
-   margin: 5px 0;
+   margin: 14px 0;
 }
 
 .form {
@@ -24,10 +24,11 @@ input[type=text] {
   font-size: 24px;
   flex-grow: 1;
   text-align: center;
-  margin: 0 150px;
+  margin: 0 10px;
 }
   
 .result {
   font-size: 14px;
+  text-align: center;
   margin: 0 5px;
 }
