@@ -16,6 +16,7 @@ function checkWords() {
     temp = document.getElementById(words[i]).value;
     if (word2 == '') {
       document.getElementById(results[i]).innerHTML = '';
+      return;
     }
     var count = 0
     for (var j = 0; j < word1.length; j++) {
