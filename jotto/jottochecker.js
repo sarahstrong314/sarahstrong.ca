@@ -3,6 +3,12 @@ var words = ['Word1', 'Word2', 'Word3', 'Word4', 'Word5', 'Word6', 'Word7', 'Wor
 
 function checkWords() {
   var word1 = document.getElementById("Word0").value;
+  if (word1 == '') {
+    for (var i = 0; i < 10; i++) {
+      document.getElementById(results[i]).innerHTML = '';
+    }
+    return;
+  }
   var word2;
   for (var i = 0; i < 10; i++) {
     word2 = document.getElementById(words[i]).value;
