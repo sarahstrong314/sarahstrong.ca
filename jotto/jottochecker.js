@@ -11,5 +11,6 @@ function checkWords() {
         count++;
         word2.replace(word1[i], '');
      }
-  Result1.innerHTML = String(word1) + ' and 'String(word2) + ' have ' + Str(count) + ' letters in common.';
+  document.getElementById("Result1").innerHTML = "This works.";
+  //document.getElementById("Result1").innerHTML = String(word1) + ' and 'String(word2) + ' have ' + Str(count) + ' letters in common.';
 }
