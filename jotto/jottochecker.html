@@ -12,7 +12,8 @@
 
   <body>
 
-    <div class='instructions' id='Instructions'>Enter your JOTTO word below.</div>
+    <div class='instructions' id='Instructions'></div>
+    
     <div class='boxes'>
       <form id='Form0' class='form' onsubmit='return false'>
         <input id='Word0' type='text' oninput='checkWords()'/>
@@ -82,6 +83,9 @@
     </div>
     
     <script>
+      
+      document.getElementById("Instructions").innerHTML = "Enter your JOTTO word below";
+      
       document.getElementById("Word1").value = "slyly";
       document.getElementById("Word2").value = "denar";
       document.getElementById("Word3").value = "quack";
