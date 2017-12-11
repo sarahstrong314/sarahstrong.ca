@@ -7,7 +7,7 @@ function checkWords() {
   for (var i = 0; i < 10; i++) {
     word2 = document.getElementById(words[i]).value;
     for (var j = 0; j < word1.length; i++) {
-      if (word1[j] in word2) {
+      if (word2.indexOf(word1[j]) > -1) {
         count++;
         word2.replace(word1[j], '');
       }
