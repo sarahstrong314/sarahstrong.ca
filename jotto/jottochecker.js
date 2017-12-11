@@ -3,6 +3,7 @@ var words = ['Word1', 'Word2', 'Word3', 'Word4', 'Word5', 'Word6', 'Word7', 'Wor
 
 function checkWords() {
   word1 = document.getElementById("Word0").value;
+  word2;
   for (var i = 0; i < 10; i++) {
     word2 = document.getElementById(words[i]).value;
     count = 0
