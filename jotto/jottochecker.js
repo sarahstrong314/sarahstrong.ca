@@ -8,6 +8,7 @@ function checkWords() {
     word2 = document.getElementById(words[i]).value;
     for (var j = 0; j < word1.length; i++) {
       if (word2.indexOf(word1[j]) > -1) {
+        console.log(word2)
         count++;
         word2.replace(word1[j], '');
       }
