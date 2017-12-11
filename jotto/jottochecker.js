@@ -1,7 +1,5 @@
 var results = ['Result1', 'Result2', 'Result3', 'Result4', 'Result5', 'Result6', 'Result7', 'Result8', 'Result9'];
 
-document.getElementById("Result1").innerHTML = "This works.";
-
 function checkWords() {
   count = 0;
   word1 = word0.value;
@@ -12,5 +10,5 @@ function checkWords() {
         word2.replace(word1[i], '');
      }
   document.getElementById("Result1").innerHTML = "This works.";
-  //document.getElementById("Result1").innerHTML = String(word1) + ' and 'String(word2) + ' have ' + Str(count) + ' letters in common.';
+  //document.getElementById("Result1").innerHTML = word1.toString() + ' and 'word2.toString() + ' have ' + count.toString() + ' letters in common.';
 }
