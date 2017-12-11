@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Jotto Checker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='jottochecker.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='shortcut icon' href=''>
+  </head>
+
+  <body>
+
+    <div class='boxes'>
+    
+      <form id='Form' class='form' onsubmit='return false'>
+        <input id='Word1' type='text' oninput='checkWords()'/>
+      </form>    
+      
+      <form id='Form' class='form' onsubmit='return false'>
+       <input id='Word2' type='text' oninput='checkWords()'/>
+      </form>
+      
+    </div>
+    
+  </body>
+</html>
