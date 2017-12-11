@@ -13,7 +13,8 @@ function checkWords() {
         count++;
         word2.replace(word1[j], '');
       }
-      var document.getElementById(results[i]).innerHTML = word1.toString() + ' and '+ word2.toString() + ' have ' + count.toString() + ' letters in common.';
+      var result = document.getElementById(results[i]).innerHTML;
+      result = word1.toString() + ' and '+ word2.toString() + ' have ' + count.toString() + ' letters in common.';
     }
   }
 }
