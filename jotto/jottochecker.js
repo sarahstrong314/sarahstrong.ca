@@ -9,8 +9,10 @@ function checkWords() {
     }
     return;
   }
+  var word2_original;
   var word2;
   for (var i = 0; i < 10; i++) {
+    word2_original = document.getElementById(words[i]).value;
     word2 = document.getElementById(words[i]).value;
     if (word2 == '') {
       document.getElementById(results[i]).innerHTML = '';
@@ -22,7 +24,7 @@ function checkWords() {
         count++;
         word2 = word2.replace(word1[j], '');
       }
-      document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2 + ' have ' + count.toString() + ' letters in common.';
+      document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2_original + ' have ' + count.toString() + ' letters in common.';
     }
   }
 }
