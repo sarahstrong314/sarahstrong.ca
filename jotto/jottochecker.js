@@ -11,7 +11,7 @@ function checkWords() {
         count++;
         word2.replace(word1[j], '');
       }
-      document.getElementById(results[i]).innerHTML = word1.toString() + ' and 'word2.toString() + ' have ' + count.toString() + ' letters in common.';
+      document.getElementById(results[i]).innerHTML = word1.toString() + ' and '+ word2.toString() + ' have ' + count.toString() + ' letters in common.';
     }
   }
 }
