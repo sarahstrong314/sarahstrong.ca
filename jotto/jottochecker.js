@@ -20,7 +20,7 @@ function checkWords() {
       if (word2.indexOf(word1[j]) > -1) {
         console.log(word2)
         count++;
-        word2.replace(word1[j], '');
+        word2 = word2.replace(word1[j], '');
       }
       document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2 + ' have ' + count.toString() + ' letters in common.';
     }
