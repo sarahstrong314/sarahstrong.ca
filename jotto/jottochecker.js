@@ -12,6 +12,9 @@ function checkWords() {
   var word2;
   for (var i = 0; i < 10; i++) {
     word2 = document.getElementById(words[i]).value;
+    if (word2 == '') {
+      document.getElementById(results[i]).innerHTML = '';
+    }
     var count = 0
     for (var j = 0; j < word1.length; j++) {
       if (word2.indexOf(word1[j]) > -1) {
@@ -19,7 +22,7 @@ function checkWords() {
         count++;
         word2.replace(word1[j], '');
       }
-      document.getElementById(results[i]).innerHTML = word1.toString() + ' and ' + word2.toString() + ' have ' + count.toString() + ' letters in common.';
+      document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2 + ' have ' + count.toString() + ' letters in common.';
     }
   }
 }
