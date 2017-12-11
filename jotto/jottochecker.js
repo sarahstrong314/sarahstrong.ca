@@ -1,6 +1,6 @@
 var results = ['Result1', 'Result2', 'Result3', 'Result4', 'Result5', 'Result6', 'Result7', 'Result8', 'Result9'];
 
-Result1.innerHTML = "This works."
+form.innerHTML = "This works."
 
 function checkWords() {
   count = 0;
