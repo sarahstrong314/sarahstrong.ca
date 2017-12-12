@@ -12,13 +12,14 @@
 
   <body>
 
-    <div class='instructions' id='Instructions'></div>
+    <div class='instructions' id='Instructions1'></div>
     
     <form id='Form0' class='form' onsubmit='return false'>
       <input id='Word0' type='text' oninput='checkWords()'/>
     </form>
       
     </br>
+    <div class='instructions' id='Instructions2'></div>
     
     <div class='row' id='Row1'>
       <form id='Form1' class='form' onsubmit='return false'>
@@ -110,7 +111,8 @@
     
     <script>
       
-      document.getElementById("Instructions").innerHTML = "Enter your JOTTO word below.";
+      document.getElementById("Instructions1").innerHTML = "Enter your JOTTO word below.";
+      document.getElementById("Instructions1").innerHTML = "Enter the guessed words below.";
       
       document.getElementById("Word1").value = "slyly";
       document.getElementById("Word2").value = "denar";
