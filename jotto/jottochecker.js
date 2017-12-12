@@ -21,7 +21,6 @@ function checkWords() {
     var count = 0
     for (var j = 0; j < word1.length; j++) {
       if (temp.indexOf(word1[j]) > -1) {
-        console.log(temp)
         count++;
         temp = temp.replace(word1[j], '');
       }
