@@ -24,7 +24,8 @@ function checkWords() {
         count++;
         temp = temp.replace(word1[j], '');
       }
-      document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2 + ' have ' + count.toString() + ' letter(s) in common.';
+      document.getElementById(results[i]).innerHTML = count.toString() 
+      //document.getElementById(results[i]).innerHTML = word1 + ' and ' + word2 + ' have ' + count.toString() + ' letter(s) in common.';
     }
   }
 }
