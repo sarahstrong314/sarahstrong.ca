@@ -15,6 +15,7 @@ br {
 .row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: left;
 }
 
@@ -34,7 +35,6 @@ input[type=text] {
   
 .result {
   display: flex;
-  vertical-align: center;
   font-size: 14px;
   text-align: left;
   margin: 0 5px;
