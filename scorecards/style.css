@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica;
+  background-color: #fdfdfd;
+  color: black;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+br {
+   display: block;
+   margin: 14px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 10px;
+}
+  
+.result {
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 5px;
+}
+
+.instructions {
+  font-size: 14px;
+  text-align: left;
+  margin: 3px 10px;
+}
