@@ -7,76 +7,76 @@ body {
   padding: 0;
 }
 
-scorecard {
+.scorecard {
   border: 2px solid black;
 }
 
-new_competitor {
+.new_competitor {
 }
 
-competition_name {
+.competition_name {
 }
 
-event_name {
+.event_name {
   border: 1px solid black;
 }
 
-competitor_name {
+.competitor_name {
   border: 1px solid black;
 }
 
-group_number {
+.group_number {
   border: 1px solid black;
 }
 
-scrambler_sig {
+.scrambler_sig {
   border: 1px solid black;
 }
 
-attempt_number {
+.attempt_number {
   border: 1px solid black;
 }
 
-result {
+.result {
   border: 1px solid black;
 }
 
-judge_sig {
+.judge_sig {
   border: 1px solid black;
 }
 
-competitor_sig {
+.competitor_sig {
   border: 1px solid black;
 }
 
-result_one {
+.result_one {
   border: 1px solid black;
 }
 
-result_two {
+.result_two {
   border: 1px solid black;
 }
 
-cutoff {
+.cutoff {
   border: 1px solid black;
 }
 
-result_three {
+.result_three {
   border: 1px solid black;
 }
 
-result_four {
+.result_four {
   border: 1px solid black;
 }
 
-result_five {
+.result_five {
   border: 1px solid black;
 }
 
-provisonal {
+.provisonal {
   border: 1px solid black;
 }
 
-result_provisional {
+.result_provisional {
   border: 1px solid black;
 }
