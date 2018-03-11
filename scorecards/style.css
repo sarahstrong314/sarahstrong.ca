@@ -1,9 +1,79 @@
 body {
   font-family: Helvetica;
-  border: 5px solid red;
+  border: 2px solid black;
   background-color: #fdfdfd;
   color: black;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+}
+
+new_competitor {
+}
+
+competition_name {
+}
+
+event_name {
+  border: 1px solid black;
+}
+
+competitor_name {
+  border: 1px solid black;
+}
+
+group_number {
+  border: 1px solid black;
+}
+
+scrambler_sig {
+  border: 1px solid black;
+}
+
+attempt_number {
+  border: 1px solid black;
+}
+
+result {
+  border: 1px solid black;
+}
+
+judge_sig {
+  border: 1px solid black;
+}
+
+competitor_sig {
+  border: 1px solid black;
+}
+
+result_one {
+  border: 1px solid black;
+}
+
+result_two {
+  border: 1px solid black;
+}
+
+cutoff {
+  border: 1px solid black;
+}
+
+result_three {
+  border: 1px solid black;
+}
+
+result_four {
+  border: 1px solid black;
+}
+
+result_five {
+  border: 1px solid black;
+}
+
+provisonal {
+  border: 1px solid black;
+}
+
+result_provisional {
+  border: 1px solid black;
 }
