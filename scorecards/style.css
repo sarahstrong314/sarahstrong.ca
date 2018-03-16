@@ -28,6 +28,7 @@ body {
 .full_table th {
   border: 2px solid #a9a9a9;
   text-align: center;
+  font-weight: normal;
 }
 
 .full_table td {
