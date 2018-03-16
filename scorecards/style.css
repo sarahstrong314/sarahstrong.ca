@@ -1,58 +1,59 @@
 body {
   font-family: Helvetica;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   color: black;
   margin-left: 0;
   margin-right: 0;
-  padding: 0;
+  padding: 10;
+}
+
+
+.first_row {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.second_row {
+  font-family: Helvetica;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.full_table {
+  font-family: Helvetica;
+  border: 2px solid #a9a9a9;
+  border-collapse: collapse;
+}
+
+.full_table th {
+  border: 2px solid #a9a9a9;
+  text-align: center;
+}
+
+.full_table td {
+  border: 2px solid #a9a9a9;
+  height: 69px;
 }
 
 .scorecard {
+  padding: 5px;
   border: 2px solid black;
-}
-
-.new_competitor {
-}
-
-.competition_name {
+  width: 561px;
+  height: 726px;
 }
 
 .event_name {
-  border: 1px solid black;
-}
-
-.competitor_name {
-  border: 1px solid black;
-}
-
-.group_number {
-  border: 1px solid black;
-}
-
-.scrambler_sig {
-  border: 1px solid black;
-}
-
-.attempt_number {
-  border: 1px solid black;
-}
-
-.result {
-  border: 1px solid black;
-}
-
-.judge_sig {
-  border: 1px solid black;
-}
-
-.competitor_sig {
-  border: 1px solid black;
+  text-align: center;
+  font-size: 36px;
+  padding: 2px;
 }
 
 .cutoff {
-  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
 }
 
 .provisonal {
-  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
 }
