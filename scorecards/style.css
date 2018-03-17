@@ -7,43 +7,121 @@ body {
   padding: 10;
 }
 
-
-.first_row {
+.first-row {
   font-family: Helvetica;
   font-size: 15px;
 }
 
-.second_row {
+.second-row {
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: underline;
 }
 
-.full_table {
+.full-table-one {
   font-family: Helvetica;
   border: 2px solid #a9a9a9;
   border-collapse: collapse;
 }
 
-.full_table th {
+.full-table-one th {
   border: 2px solid #a9a9a9;
   text-align: center;
   font-weight: normal;
 }
 
-.full_table td {
+.full-table-one td {
   border: 2px solid #a9a9a9;
   height: 69px;
 }
 
-.scorecard {
+.full-table-two {
+  font-family: Helvetica;
+  border: 2px solid #a9a9a9;
+  border-collapse: collapse;
+}
+
+.full-table-two th {
+  border: 2px solid #a9a9a9;
+  text-align: center;
+  font-weight: normal;
+}
+
+.full-table-two td {
+  border: 2px solid #a9a9a9;
+  height: 78px;
+}
+
+.full-table-three {
+  font-family: Helvetica;
+  border: 2px solid #a9a9a9;
+  border-collapse: collapse;
+}
+
+.full-table-three th {
+  border: 2px solid #a9a9a9;
+  text-align: center;
+  font-weight: normal;
+}
+
+.full-table-three td {
+  border: 2px solid #a9a9a9;
+  height: 105px;
+}
+
+.full-table-four {
+  font-family: Helvetica;
+  border: 2px solid #a9a9a9;
+  border-collapse: collapse;
+}
+
+.full-table-four th {
+  border: 2px solid #a9a9a9;
+  text-align: center;
+  font-weight: normal;
+}
+
+.full-table-four td {
+  border: 2px solid #a9a9a9;
+  height: 118px;
+}
+
+.scorecard-one {
   padding: 5px;
+  margin: 20px;
   border: 2px solid black;
   width: 561px;
   height: 726px;
+  float: left;
 }
 
-.event_name {
+.scorecard-two {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+}
+
+.scorecard-three {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+}
+.scorecard-four {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+}
+
+.event-name {
   text-align: center;
   font-size: 36px;
   padding: 2px;
