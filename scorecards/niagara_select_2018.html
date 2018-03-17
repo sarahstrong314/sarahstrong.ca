@@ -5,44 +5,42 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
-    <script src='niagara_select_2018.js' charset='utf-8'></script>
+    <script src='test.js' charset='utf-8'></script>
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel='shortcut icon' href=''>
   </head>
 
   <body>
-    <div class='scorecard' id='Scorecard'>
-      
-      <table class='first_row'>
+    <div class='scorecard-one' style='display: none;'>   
+      <table class='first-row'>
         <col width='275px'/>
         <col width='276px'/>
         <tr>
           <td align='left'>Niagara Select 2018</td>
-          <td align='right'>New Competitor</td>
+          <td align='right' class = 'wca-id'></td>
         </tr>
       </table>
 
-    </br >
+    <br />
      
-      <div class='event_name' id='EventName'>3x3x3 One-Handed</div>
+      <div class='event-name'></div>
 
+    <br />
 
-    </br >
-
-      <table class='second_row'>
+      <table class='second-row'>
         <col width='184px'/>
         <col width='183px'/>
         <col width='184px'/>
         <tr>
-          <td align='left'>FirstName LastName</td>
-          <td align='center'>Combined Final</td>
-          <td align='right'>Group 10</td>
+          <td align='left' class='competitor-name'></td>
+          <td align='center' class='event-round'></td>
+          <td align='right' class='group-number'></td>
         </tr>
       </table>
 
-    </br >
+    <br />
       
-      <table class='full_table'>
+      <table class='full-table-one'>
         <col width='60px' />
         <col width='80px' />
         <col width='296px' />
@@ -71,13 +69,13 @@
         </tr>
       </table>
 
+    <br />
+
+      <div class='cutoff'></div>
+
     </br >
 
-      <div class='cutoff' id='Cutoff'> ------------------------------------- Cutoff: 45 seconds --------------------------------------------- </div>
-
-    </br >
-
-      <table class='full_table'>
+      <table class='full-table-one'>
         <col width='60px' />
         <col width='80px' />
         <col width='296px' />
@@ -106,13 +104,13 @@
         </tr>
       </table>
 
-    </br >
+    <br />
 
-      <div class='provisonal' id='Provisional'> ------------------------------------ Extra or Provisional Solve ------------------------------------ </div>
+      <div class='provisional'></div>
 
-    </br >
+    <br />
 
-      <table class='full_table'>
+      <table class='full-table-one'>
         <col width='60px' />
         <col width='80px' />
         <col width='296px' />
@@ -125,6 +123,317 @@
           <td></td>
           <td></td>
         </tr>
+      </table>
     </div>
+
+    <div class='scorecard-two' style='display: none;'>
+            <table class='first-row'>
+        <col width='275px'/>
+        <col width='276px'/>
+        <tr>
+          <td align='left'>Niagara Select 2018</td>
+          <td align='right' class = 'wca-id'></td>
+        </tr>
+      </table>
+
+    <br />
+     
+      <div class='event-name'></div>
+
+    <br />
+
+      <table class='second-row'>
+        <col width='184px'/>
+        <col width='183px'/>
+        <col width='184px'/>
+        <tr>
+          <td align='left' class='competitor-name'></td>
+          <td align='center' class='event-round'></td>
+          <td align='right' class='group-number'></td>
+        </tr>
+      </table>
+
+    <br />
+      
+      <table class='full-table-two'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <th>S Sign</th>
+          <th>Attempt #</th>
+          <th>Result</th>
+          <th>J Sign</th>
+          <th>C Sign</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+      <div class='provisional'></div>
+
+    <br />
+
+      <table class='full-table-two'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <td></td>
+          <td align='center'>E</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='scorecard-three' style='display: none;'> 
+      <table class='first-row'>
+        <col width='275px'/>
+        <col width='276px'/>
+        <tr>
+          <td align='left'>Niagara Select 2018</td>
+          <td align='right' class='wca-id'></td>
+        </tr>
+      </table>
+
+    <br />
+     
+      <div class='event-name'></div>
+
+    <br />
+
+      <table class='second-row'>
+        <col width='184px'/>
+        <col width='183px'/>
+        <col width='184px'/>
+        <tr>
+          <td align='left' class='competitor-name'>/td>
+          <td align='center' class='event-round'></td>
+          <td align='right' class='group-number'></td>
+        </tr>
+      </table>
+
+    <br />
+      
+      <table class='full-table-three'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <th>S Sign</th>
+          <th>Attempt #</th>
+          <th>Result</th>
+          <th>J Sign</th>
+          <th>C Sign</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+      <div class='cutoff'></div>
+
+    </br >
+
+      <table class='full-table-three'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <td></td>
+          <td align='center'>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+      <div class='provisional'></div>
+
+    <br />
+
+      <table class='full-table-three'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <td></td>
+          <td align='center'>E</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='scorecard-four' style='display: none;'>
+      <table class='first-row'>
+        <col width='275px'/>
+        <col width='276px'/>
+        <tr>
+          <td align='left'>Niagara Select 2018</td>
+          <td align='right' class='wca-id'></td>
+        </tr>
+      </table>
+
+    <br />
+     
+      <div class='event-name'></div>
+
+    <br />
+
+      <table class='second-row'>
+        <col width='184px'/>
+        <col width='183px'/>
+        <col width='184px'/>
+        <tr>
+          <td align='left' class='competitor-name'>/td>
+          <td align='center' class='event-round'></td>
+          <td align='right' class='group-number'></td>
+        </tr>
+      </table>
+
+    <br />
+      
+      <table class='full-table-four'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <th>S Sign</th>
+          <th>Attempt #</th>
+          <th>Result</th>
+          <th>J Sign</th>
+          <th>C Sign</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align='center'>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+      <div class='provisional'></div>
+
+    <br />
+
+      <table class='full-table-four'>
+        <col width='60px' />
+        <col width='80px' />
+        <col width='296px' />
+        <col width='60px' />
+        <col width='60px' />
+        <tr>
+          <td></td>
+          <td align='center'>E</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+     <script>
+      window.competitors.forEach(function(competitor) {
+        if (window.mo3events.includes(competitor.event)) {
+          if (competitor.cutoff == '') var $scorecard = $(".scorecard-four").first();
+          else var $scorecard = $(".scorecard-three").first();
+        } else {
+          if (competitor.cutoff == '') var $scorecard = $(".scorecard-two").first();
+          else var $scorecard = $(".scorecard-one").first();
+        }
+        var $newScorecard = $scorecard.clone().show();
+        $(".competitor-name", $newScorecard).text(competitor.name);
+        $(".wca-id", $newScorecard).text(competitor.id);
+        $(".event-name", $newScorecard).text(competitor.event);
+        $(".event-round", $newScorecard).text(competitor.round);
+        $(".group-number", $newScorecard).text('Group ' + competitor.group.toString());
+        $(".cutoff", $newScorecard).text('----------------------------------------- Cutoff: ' + competitor.cutoff + ' -----------------------------------------');
+        $(".provisional", $newScorecard).text('---------------------------------- Extra or Provisional Solve ----------------------------------');
+        $("body").append($newScorecard);
+      });
+    </script>
   </body>
 </html>
