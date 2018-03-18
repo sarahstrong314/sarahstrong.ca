@@ -19,102 +19,102 @@ body {
 
 .full-table-one {
   font-family: Helvetica;
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 
 .full-table-one th {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   text-align: center;
   font-weight: normal;
 }
 
 .full-table-one td {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   height: 69px;
 }
 
 .full-table-two {
   font-family: Helvetica;
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 
 .full-table-two th {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   text-align: center;
   font-weight: normal;
 }
 
 .full-table-two td {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   height: 78px;
 }
 
 .full-table-three {
   font-family: Helvetica;
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 
 .full-table-three th {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   text-align: center;
   font-weight: normal;
 }
 
 .full-table-three td {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   height: 105px;
 }
 
 .full-table-four {
   font-family: Helvetica;
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 
 .full-table-four th {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   text-align: center;
   font-weight: normal;
 }
 
 .full-table-four td {
-  border: 2px solid #a9a9a9;
+  border: 2px solid black;
   height: 119px;
 }
 
 .scorecard-one {
-  padding: 5px;
+  padding: 19px 5px;
   margin: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 561px;
   height: 726px;
   float: left;
 }
 
 .scorecard-two {
-  padding: 5px;
+  padding: 19px 5px;
   margin: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 561px;
   height: 726px;
   float: left;
 }
 
 .scorecard-three {
-  padding: 5px;
+  padding: 19px 5px;
   margin: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 561px;
   height: 726px;
   float: left;
 }
 .scorecard-four {
-  padding: 5px;
+  padding: 19px 5px;
   margin: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 561px;
   height: 726px;
   float: left;
