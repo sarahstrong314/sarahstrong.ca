@@ -53,7 +53,7 @@
         <tr>
           <th>S Sign</th>
           <th>Attempt #</th>
-          <th>Result</th>
+          <th class='result'>Result</th>
           <th>J Sign</th>
           <th>C Sign</th>
         </tr>
@@ -172,7 +172,7 @@
         <tr>
           <th>S Sign</th>
           <th>Attempt #</th>
-          <th>Result</th>
+          <th class='result'>Result</th>
           <th>J Sign</th>
           <th>C Sign</th>
         </tr>
@@ -277,7 +277,7 @@
         <tr>
           <th>S Sign</th>
           <th>Attempt #</th>
-          <th>Result</th>
+          <th class='result'>Result</th>
           <th>J Sign</th>
           <th>C Sign</th>
         </tr>
@@ -382,7 +382,7 @@
         <tr>
           <th>S Sign</th>
           <th>Attempt #</th>
-          <th>Result</th>
+          <th class='result'>Result</th>
           <th>J Sign</th>
           <th>C Sign</th>
         </tr>
@@ -446,6 +446,7 @@
         $(".event-name", $newScorecard).text(competitor.event);
         $(".event-round", $newScorecard).text(competitor.round);
         $(".group-number", $newScorecard).text('Group ' + competitor.group.toString());
+        $(".result", $newScorecard).text('Result (' + competitor.limit + ' limit)');
         $(".cutoff", $newScorecard).text('----------------------------------------- Cutoff: ' + competitor.cutoff + ' -----------------------------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $("body").append($newScorecard);
