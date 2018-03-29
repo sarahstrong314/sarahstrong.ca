@@ -16,7 +16,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Niagara Select 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -135,7 +135,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Niagara Select 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -240,7 +240,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Niagara Select 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -345,7 +345,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Niagara Select 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -441,6 +441,7 @@
           else var $scorecard = $(".scorecard-one").first();
         }
         var $newScorecard = $scorecard.clone().show();
+        $(".competition-name", $newScorecard).text('Niagara Select 2018');
         $(".competitor-name", $newScorecard).text(competitor.name);
         $(".wca-id", $newScorecard).text(competitor.id);
         $(".event-name", $newScorecard).text(competitor.event);
