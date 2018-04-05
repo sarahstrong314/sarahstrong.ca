@@ -16,7 +16,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Competition Name 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -135,7 +135,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Competition Name 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -240,7 +240,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Competition Name 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -345,7 +345,7 @@
         <col width='275px'/>
         <col width='276px'/>
         <tr>
-          <td align='left'>Competition Name 2018</td>
+          <td align='left' class='competition-name'></td>
           <td align='right' class='wca-id'></td>
         </tr>
       </table>
@@ -432,6 +432,7 @@
     </div>
 
      <script>
+      var i = 0;
       window.competitors.forEach(function(competitor) {
         if (window.mo3events.includes(competitor.event)) {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-four").first();
@@ -441,6 +442,9 @@
           else var $scorecard = $(".scorecard-one").first();
         }
         var $newScorecard = $scorecard.clone().show();
+        console.log($newScorecard.classNames);
+        $newScorecard.addClass("scorecard-position-" + (i % 4));
+        $(".competition-name", $newScorecard).text('Competition Name 2018');
         $(".competitor-name", $newScorecard).text(competitor.name);
         $(".wca-id", $newScorecard).text(competitor.id);
         $(".event-name", $newScorecard).text(competitor.event);
@@ -450,6 +454,7 @@
         $(".cutoff", $newScorecard).text('----------------------------------------- Cutoff: ' + competitor.cutoff + ' -----------------------------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $("body").append($newScorecard);
+        i++;
       });
     </script>
   </body>
