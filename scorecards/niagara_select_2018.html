@@ -432,6 +432,7 @@
     </div>
 
      <script>
+      var i = 0;
       window.competitors.forEach(function(competitor) {
         if (window.mo3events.includes(competitor.event)) {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-four").first();
@@ -441,6 +442,8 @@
           else var $scorecard = $(".scorecard-one").first();
         }
         var $newScorecard = $scorecard.clone().show();
+        console.log($newScorecard.classNames);
+        $newScorecard.addClass("scorecard-position-" + (i % 4));
         $(".competition-name", $newScorecard).text('Niagara Select 2018');
         $(".competitor-name", $newScorecard).text(competitor.name);
         $(".wca-id", $newScorecard).text(competitor.id);
@@ -451,6 +454,7 @@
         $(".cutoff", $newScorecard).text('----------------------------------------- Cutoff: ' + competitor.cutoff + ' -----------------------------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $("body").append($newScorecard);
+        i++;
       });
     </script>
   </body>
