@@ -50,6 +50,12 @@
         <col width='90px' />
         <col width='90px' />
         <tr>
+          <th>Attempt #</th>
+          <th class='result'>Result</th>
+          <th>Judge</th>
+          <th>Competitor</th>
+        </tr>
+        <tr>
           <td align='center'>1</td>
           <td></td>
           <td></td>
@@ -107,7 +113,7 @@
         <col width='90px' />
         <tr>
           <td></td>
-          <td align='center'></td>
+          <td align='center'</td>
           <td></td>
           <td></td>
           <td></td>
@@ -156,8 +162,8 @@
         <tr>
           <th>Attempt #</th>
           <th class='result'>Result</th>
-          <th>J Sign</th>
-          <th>C Sign</th>
+          <th>Judge</th>
+          <th>Competitor</th>
         </tr>
         <tr>
           <td align='center'>1</td>
@@ -252,8 +258,8 @@
         <tr>
           <th>Attempt #</th>
           <th class='result'>Result</th>
-          <th>J Sign</th>
-          <th>C Sign</th>
+          <th>Judge</th>
+          <th>Competitor</th>
         </tr>
         <tr>
           <td align='center'>1</td>
@@ -349,8 +355,8 @@
         <tr>
           <th>Attempt #</th>
           <th class='result'>Result</th>
-          <th>J Sign</th>
-          <th>C Sign</th>
+          <th>Judge</th>
+          <th>Competitor</th>
         </tr>
         <tr>
           <td align='center'>1</td>
@@ -413,7 +419,7 @@
         $(".group-number", $newScorecard).text('Group ' + competitor.group);
         $(".result", $newScorecard).text('Result (' + competitor.limit + ' limit)');
         if (window.mo3events.includes(competitor.event)) {
-          $(".cutoff", $newScorecard).text('-------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' --------------------');
+          $(".cutoff", $newScorecard).text('---------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' ----------------------------');
         } else $(".cutoff", $newScorecard).text('-------------------- Continue if Attempt 1 or Attempt 2 is below ' + competitor.cutoff  + ' --------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
