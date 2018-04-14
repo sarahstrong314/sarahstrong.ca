@@ -409,7 +409,6 @@
           else var $scorecard = $(".scorecard-one").first();
         }
         var $newScorecard = $scorecard.clone().show();
-        console.log($newScorecard.classNames);
         $newScorecard.addClass("scorecard-position-" + (i % 4));
         $(".competition-name", $newScorecard).text('Competition Name 2018');
         $(".competitor-name", $newScorecard).text(competitor.name);
