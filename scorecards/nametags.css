@@ -1,0 +1,71 @@
+body {
+  font-family: Helvetica;
+  background-color: #ffffff;
+  color: black;
+  margin: 0;
+}
+
+.big-tag tr {
+  text-align: center;
+  font-size: 58px;
+}
+
+.medium-tag tr {
+  text-align: center;
+  font-size: 26px;
+}
+
+.little-tag tr {
+  text-align: center;
+  font-size: 20px;
+}
+
+.competitor-name {
+  height: 58px;
+}
+
+.competitor-country {
+  height: 26px;
+}
+
+.competitor-id {
+  height: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.personal-card {
+  padding: 5px 5px;
+  border: 3px solid black;
+  width: 500px;
+  height: 345px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+  margin-right: 60px;
+  margin-bottom: 45px;
+}
+
+.nametag {
+  padding: 5px 5px;
+  border: 3px solid black;
+  width: 500px;
+  height: 345px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+  margin-right: 60px;
+  margin-bottom: 45px;
+}
+
+.schedule tr { 
+  font-size: 12px; 
+}
+
+tr.min {
+  width: 50px;
+  white-space: nowrap;
+}
