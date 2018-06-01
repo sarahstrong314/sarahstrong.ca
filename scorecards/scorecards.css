@@ -88,6 +88,26 @@ body {
   font-size: 24px;
 }
 
+.full-table-five th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.full-table-five td {
+  border: 2px solid black;
+  height: 170px;
+}
+
+.attempt {
+  font-size: 24px;
+}
+
+.mbf-result {
+  padding: 20px;
+  font-size: 18px;
+}
+
 .scorecard-one {
   padding: 11px 5px;
   border: 3px solid black;
@@ -115,6 +135,15 @@ body {
   border-radius: 15px 15px 15px 15px;
 }
 .scorecard-four {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-five {
   padding: 11px 5px;
   border: 3px solid black;
   width: 561px;
