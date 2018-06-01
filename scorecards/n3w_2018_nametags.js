@@ -14,10 +14,8 @@ window.competitors = [
 { name: 'Bram Ogus', id: 'New Competitor', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Brendan Chan', id: 'New Competitor', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Colin Cayen', id: '2015CAYE02', country: 'Canada' ,title: 'COMPETITOR' },
-{ name: 'Colleen Geerlinks', id: '2014GEER01', country: 'Canada' ,title: 'STAFF' },
 { name: 'Craig Bouchard', id: '2005BOUC01', country: 'Canada' ,title: 'STAFF' },
 { name: 'Daniel Pavelich', id: '2015PAVE01', country: 'USA' ,title: 'COMPETITOR' },
-{ name: 'Dave Campbell', id: '2005CAMP01', country: 'Canada' ,title: 'STAFF' },
 { name: 'Derek Kong', id: '2017KONG08', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Dimitri Huinink ', id: 'New Competitor', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Edward Wu', id: '2015WUED01', country: 'Canada' ,title: 'COMPETITOR' },
@@ -70,7 +68,6 @@ window.competitors = [
 { name: 'Ryan Wu', id: '2017WURY01', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Samuel Moran', id: '2015MORA08', country: 'USA' ,title: 'COMPETITOR' },
 { name: 'Samuel Pakulat', id: '2018PAKU01', country: 'Canada' ,title: 'COMPETITOR' },
-{ name: 'Sarah Strong', id: '2007STRO01', country: 'Canada' ,title: 'STAFF' },
 { name: 'Sascha Pugar', id: '2015PUGA01', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Sehaj Dhillon', id: 'New Competitor', country: 'Canada' ,title: 'COMPETITOR' },
 { name: 'Seth Huygen', id: 'New Competitor', country: 'Canada' ,title: 'COMPETITOR' },
@@ -105,5 +102,8 @@ window.competitors = [
 { name: '', id: '', country: '' ,title: 'VOLUNTEER' },
 { name: '', id: '', country: '' ,title: 'COMPETITOR' },
 { name: '', id: '', country: '' ,title: 'VOLUNTEER' },
-{ name: '', id: '', country: '' ,title: 'COMPETITOR' }
+{ name: '', id: '', country: '' ,title: 'COMPETITOR' },
+{ name: 'Colleen Geerlinks', id: '2014GEER01', country: 'Canada' ,title: 'VOLUNTEER' },
+{ name: 'Sarah Strong', id: '2007STRO01', country: 'Canada' ,title: 'ORGANIZER' },
+{ name: 'Dave Campbell', id: '2005CAMP01', country: 'Canada' ,title: 'DELEGATE' },
 ]
