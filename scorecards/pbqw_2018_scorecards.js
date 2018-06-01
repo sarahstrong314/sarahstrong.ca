@@ -53,5 +53,4 @@ window.competitors = [
 { name: 'Paul Ellement', id: '2016ELLE01', event: '3x3x3 Multiple Blind', round: 'Round 1 of 2', group: '1 of 1', cutoff: '', limit: '5:00' },
 { name: 'Ryan DeLine', id: '2012DELI01', event: '3x3x3 Multiple Blind', round: 'Round 1 of 2', group: '1 of 1', cutoff: '', limit: '5:00' },
 { name: 'Taha Ben Salah', id: '2015SALA03', event: '3x3x3 Multiple Blind', round: 'Round 1 of 2', group: '1 of 1', cutoff: '', limit: '5:00' },
-
 ]
