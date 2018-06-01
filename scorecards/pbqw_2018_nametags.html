@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>PBQ Waterloo 2018 Nametags</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='pbq_2018_nametags.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='nametags.css'>
+    <link rel='shortcut icon' href=''>
+  </head>
+
+  <body>
+    <div class='nametag' style='display: none;'>  
+      
+      </br>  
+      <table class='medium-tag'>
+        <col width='600px'/>
+        <tr class='competition-name'></tr>
+      </table>
+      
+      </br>
+
+      <img src="pbq_logo.png"></img>
+     
+      </br>
+
+      <table class='big-tag'>
+        <col width='600px'/>
+        <tr class='competitor-name'>
+        </tr>
+
+      <table class='medium-tag'>
+        <col width='600px'/>
+        <tr class='competitor-title'></tr>
+        <tr class='competitor-country'></tr>
+      </table>
+
+      </br>
+
+      <table class='little-tag'>
+        <col width='600px'/>
+        <tr class='competitor-id'></tr>
+      </table>
+
+      <script>
+      var i = 0;
+      window.competitors.forEach(function(competitor) {
+        var $nametag = $(".nametag").first();
+        var $newNametag = $nametag.clone().show();
+
+        $(".competition-name", $newNametag).text('No 3x3x3 Waterloo 2018');
+        $(".competitor-name", $newNametag).text(competitor.name);
+        $(".competitor-id", $newNametag).text(competitor.id);
+        $(".competitor-country", $newNametag).text(competitor.country);
+        $(".competitor-title", $newNametag).text(competitor.title);
+
+        $("body").append($newNametag);
+        i++;
+      });
+    </script>
+  </body>
+</html>
+
+
