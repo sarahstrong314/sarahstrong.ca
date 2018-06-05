@@ -20,6 +20,7 @@ window.competitors = [
 { name: 'Ryan DeLine', id: '2012DELI01', country: 'USA', title: 'COMPETITOR' },
 { name: 'Sarah Strong', id: '2007STRO01', country: 'Canada', title: 'ORGANIZER' },
 { name: 'Taha Ben Salah', id: '2015SALA03', country: 'Tunisia', title: 'COMPETITOR' },
+{ name: 'Alex Keats', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Chris Thomson', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Jack Boos', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Michael Strong', id: '', country: '', title: 'VOLUNTEER' },
