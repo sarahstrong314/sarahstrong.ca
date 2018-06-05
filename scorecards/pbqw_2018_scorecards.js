@@ -1,6 +1,6 @@
 window.mo3events =[ '6x6x6 Cube', '7x7x7 Cube', '3x3x3 Blindfolded', '4x4x4 Blindfolded', '5x5x5 Blindfolded'];
 
-window.bo1events = ['3x3x3 Multiple Blindfolded']
+window.bo1events = ['3x3x3 Multiple Blindfolded'];
 
 window.competitors = [
 { name: 'Ben Bergen', id: '2015BERG10', event: '3x3x3 Blindfolded', round: 'Round 1 of 2', group: '1 of 2', cutoff: '', limit: '15:00 cumulative' },
