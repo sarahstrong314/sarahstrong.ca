@@ -507,6 +507,8 @@
         if (window.mo3events.includes(competitor.event)) {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-four").first();
           else var $scorecard = $(".scorecard-three").first();
+        } else if (window.bo1events.includes(competitor.event)){
+          var $scorecard = $(".scorecard-five").first();
         } else {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-two").first();
           else var $scorecard = $(".scorecard-one").first();
