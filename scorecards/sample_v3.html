@@ -521,7 +521,11 @@
         $(".event-name", $newScorecard).text(competitor.event);
         $(".event-round", $newScorecard).text(competitor.round);
         $(".group-number", $newScorecard).text('Group ' + competitor.group);
-        $(".result", $newScorecard).text('Result (' + competitor.limit + ' limit)');
+        if (window.bo1events.includes(competitor.event)) {
+          $(".result", $newScorecard).text('Result (' + competitor.limit + ' limit)');
+        } else {
+          $(".result", $newScorecard).text('Result (DNF if above' + competitor.limit + ' limit)');
+        }
         if (window.mo3events.includes(competitor.event)) {
           $(".cutoff", $newScorecard).text('---------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' ----------------------------');
         } else $(".cutoff", $newScorecard).text('-------------------- Continue if Attempt 1 or Attempt 2 is below ' + competitor.cutoff  + ' --------------------');
