@@ -88,6 +88,12 @@ body {
   font-size: 24px;
 }
 
+.full-table-five {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
 .full-table-five th {
   border: 2px solid black;
   text-align: center;
