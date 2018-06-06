@@ -434,17 +434,15 @@
     <br />
       
       <table class='full-table-five'>
-        <col width='60px' />
         <col width='80px' />
         <col width='298px' />
-        <col width='60px' />
-        <col width='60px' />
+        <col width='90px' />
+        <col width='90px' />
         <tr>
-          <th>S Sign</th>
           <th>Attempt #</th>
           <th class='result'>Result</th>
-          <th>J Sign</th>
-          <th>C Sign</th>
+          <th>Judge</th>
+          <th>Competitor</th>
         </tr>
         <tr>
           <td></td>
@@ -475,13 +473,17 @@
     <br />
 
       <table class='full-table-five'>
-        <col width='60px' />
         <col width='80px' />
         <col width='298px' />
-        <col width='60px' />
-        <col width='60px' />
+        <col width='90px' />
+        <col width='90px' />
         <tr>
-          <td></td>
+          <th>Attempt #</th>
+          <th class='result'>Result</th>
+          <th>Judge</th>
+          <th>Competitor</th>
+        </tr>
+        <tr>
           <td class='attempt' align='center'></td>
           <td class='mbf-result' align='center'>
             <br />
@@ -524,7 +526,7 @@
         if (window.bo1events.includes(competitor.event)) {
           $(".result", $newScorecard).text('Result (' + competitor.limit + ' limit)');
         } else {
-          $(".result", $newScorecard).text('Result (DNF if over ' + competitor.limit + ' limit)');
+          $(".result", $newScorecard).text('Result (DNF if over ' + competitor.limit + ' time limit)');
         }
         if (window.mo3events.includes(competitor.event)) {
           $(".cutoff", $newScorecard).text('---------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' ----------------------------');
