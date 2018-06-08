@@ -39,17 +39,6 @@ img {
     width: 100%;
 }
 
-.personal-card {
-  padding: 5px 5px;
-  border: 3px solid black;
-  width: 500px;
-  height: 345px;
-  float: left;
-  border-radius: 15px 15px 15px 15px;
-  margin-right: 60px;
-  margin-bottom: 45px;
-}
-
 .nametag {
   padding: 5px 5px;
   border: 3px solid black;
@@ -59,10 +48,6 @@ img {
   border-radius: 15px 15px 15px 15px;
   margin-right: 60px;
   margin-bottom: 45px;
-}
-
-.schedule tr { 
-  font-size: 12px; 
 }
 
 tr.min {

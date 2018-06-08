@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang='en'>
   <head>
-    <title>No 3x3x3 Waterloo Personal Cards</title>
+    <title>Sample Personal Cards</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
-    <script src='n3w_2018_personal_cards.js' charset='utf-8'></script>
-    <link rel='stylesheet' type='text/css' href='nametags.css'>
+    <script src='sample_personal_cards.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='personal_cards.css'>
     <link rel='shortcut icon' href=''>
   </head>
 
@@ -15,7 +15,7 @@
     
      <table class='top_row'>
       <tr>
-        <td align='left' class='competitor-name-2'></td>
+        <td align='left' class='competitor-name'></td>
       </tr>
       </table>
 
@@ -201,7 +201,7 @@
         var $personalCard = $(".personal-card").first();
         var $newPersonalCard = $personalCard.clone().show();
 
-        $(".competitor-name-2", $newPersonalCard).text(competitor.name);
+        $(".competitor-name", $newPersonalCard).text(competitor.name);
         $(".group-444", $newPersonalCard).text(competitor.group_444);
         $(".group-555", $newPersonalCard).text(competitor.group_555);
         $(".group-666", $newPersonalCard).text(competitor.group_666);

@@ -112,7 +112,7 @@
         <col width='90px' />
         <col width='90px' />
         <tr>
-          <td align='center'</td>
+          <td align='center'></td>
           <td></td>
           <td></td>
           <td></td>
@@ -524,10 +524,9 @@
           $(".result", $newScorecard).text('Result (DNF if over ' + competitor.limit + ' time limit)');
         }
         if (window.mo3events.includes(competitor.event)) {
-          $(".cutoff", $newScorecard).text('---------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' ----------------------------');
-        } else $(".cutoff", $newScorecard).text('-------------------- Continue if Attempt 1 or Attempt 2 is below ' + competitor.cutoff  + ' --------------------');
-        $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
-        $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
+          $(".cutoff", $newScorecard).text('-------------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' --------------------------------');
+        } else $(".cutoff", $newScorecard).text('----------------------- Continue if Attempt 1 or Attempt 2 is below ' + competitor.cutoff  + ' -----------------------');
+        $(".provisional", $newScorecard).text('------------------- Extra or Provisional Solve (Approved by __________) -------------------');
         $("body").append($newScorecard);
         i++;
       });

@@ -6,7 +6,7 @@
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
     <script src='pbqw_2018_personal_cards.js' charset='utf-8'></script>
-    <link rel='stylesheet' type='text/css' href='nametags.css'>
+    <link rel='stylesheet' type='text/css' href='personal_cards.css'>
     <link rel='shortcut icon' href=''>
   </head>
 
@@ -15,7 +15,7 @@
     
      <table class='top_row'>
       <tr>
-        <td align='left' class='competitor-name-2'></td>
+        <td align='left' class='competitor-name'></td>
       </tr>
       </table>
 
@@ -29,7 +29,7 @@
         <col width='10px'/>
         <col width='50px'/>
         <col width='10px'/>
-        <col width='55px'/>
+        <col width='60px'/>
         <col width='10px'/>
         <col width='50px'/>
         <tr>
@@ -174,7 +174,7 @@
         var $personalCard = $(".personal-card").first();
         var $newPersonalCard = $personalCard.clone().show();
 
-        $(".competitor-name-2", $newPersonalCard).text(competitor.name);
+        $(".competitor-name", $newPersonalCard).text(competitor.name);
         $(".group-333bf", $newPersonalCard).text(competitor.group_333bf);
         $(".group-333mbf", $newPersonalCard).text(competitor.group_333mbf);
         $(".group-333fm", $newPersonalCard).text(competitor.group_333fm);

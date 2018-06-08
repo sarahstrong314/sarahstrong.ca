@@ -396,6 +396,103 @@
         </tr>
       </table>
     </div>
+    
+     <div class='scorecard-five' style='display: none;'>
+      <table class='first-row'>
+        <col width='275px'/>
+        <col width='276px'/>
+        <tr>
+          <td align='left' class='competition-name'></td>
+          <td align='right' class='wca-id'></td>
+        </tr>
+      </table>
+
+    <br />
+     
+      <div class='event-name'></div>
+
+    <br />
+
+      <table class='second-row'>
+        <col width='380px'/>
+        <col width='10px'/>
+        <col width='200px'/>
+        <col width='10px'/>
+        <col width='215px'/>
+        <tr>
+          <td align='center' class='competitor-name' style='border-bottom: 2px solid black;'></td>
+          <td>&nbsp;&nbsp;&nbsp;</td>
+          <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
+          <td>&nbsp;&nbsp;&nbsp;</td>
+          <td align='center' class='group-number' style='border-bottom: 2px solid black;'></td>
+        </tr>
+      </table>
+
+    <br />
+      
+      <table class='full-table-five'>
+        <col width='80px' />
+        <col width='298px' />
+        <col width='90px' />
+        <col width='90px' />
+        <tr>
+          <th>Attempt #</th>
+          <th class='result'>Result</th>
+          <th>Judge</th>
+          <th>Competitor</th>
+        </tr>
+        <tr>
+          <td class='attempt' align='center'>1</td>
+          <td class='mbf-result' align='center'>
+             _______ out of _______ 
+            <br />
+            <br />
+            <br />
+            Time
+            <br />
+            <br />
+            <br />
+            <br />
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+      <div class='provisional'></div>
+
+    <br />
+
+      <table class='full-table-five'>
+        <col width='80px' />
+        <col width='298px' />
+        <col width='90px' />
+        <col width='90px' />
+        <tr>
+          <th>Attempt #</th>
+          <th class='result'>Result</th>
+          <th>Judge</th>
+          <th>Competitor</th>
+        </tr>
+        <tr>
+          <td class='attempt' align='center'></td>
+          <td class='mbf-result' align='center'>
+            _______ out of _______ 
+            <br />
+            <br />
+            <br />
+            Time
+            <br />
+            <br />
+            <br />
+            <br />
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+    </div>
 
      <script>
       var i = 0;
@@ -403,6 +500,8 @@
         if (window.mo3events.includes(competitor.event)) {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-four").first();
           else var $scorecard = $(".scorecard-three").first();
+        } else if (window.bo1events.includes(competitor.event)){
+          var $scorecard = $(".scorecard-five").first();
         } else {
           if (competitor.cutoff == '') var $scorecard = $(".scorecard-two").first();
           else var $scorecard = $(".scorecard-one").first();
@@ -419,7 +518,6 @@
         if (window.mo3events.includes(competitor.event)) {
           $(".cutoff", $newScorecard).text('---------------------------- Continue if Attempt 1 is below ' + competitor.cutoff  + ' ----------------------------');
         } else $(".cutoff", $newScorecard).text('-------------------- Continue if Attempt 1 or Attempt 2 is below ' + competitor.cutoff  + ' --------------------');
-        $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $(".provisional", $newScorecard).text('------------------------------------ Extra or Provisional Solve ------------------------------------');
         $("body").append($newScorecard);
         i++;
