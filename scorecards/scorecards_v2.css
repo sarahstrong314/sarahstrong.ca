@@ -159,7 +159,7 @@ body {
   border-radius: 15px 15px 15px 15px;
 }
 
-competitor-name {
+.competitor-name {
   text-align: center;
   font-size: 36px;
   padding: 2px;
