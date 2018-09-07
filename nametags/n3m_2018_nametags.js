@@ -64,7 +64,7 @@ window.competitors = [
 { name: 'Nima Bolourchian', id: '2017BOLO01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Owen Berg', id: '2018BERG03', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Paula Stan', id: '', country: '' ,title: 'VOLUNTEER' },
-{ name: 'Peter Douthwright', id: '2007DOUT01', country: 'Canada', title: 'STAFF },
+{ name: 'Peter Douthwright', id: '2007DOUT01', country: 'Canada', title: 'STAFF' },
 { name: 'Richard Madison', id: '2017MADI03', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Rishith Shyamkumar Nellippillil', id: '2013NELL01', country: 'India', title: 'COMPETITOR' },
 { name: 'Roan Paone', id: '2017PAON01', country: 'Canada', title: 'COMPETITOR' },
