@@ -7,7 +7,37 @@ body {
 
 .big-tag tr {
   text-align: center;
+  font-size: 60px;
+}
+
+.big-tag-2 tr {
+  text-align: center;
+  font-size: 58px;
+}
+
+.big-tag-3 tr {
+  text-align: center;
   font-size: 56px;
+}
+
+.big-tag-4 tr {
+  text-align: center;
+  font-size: 54px;
+}
+
+.big-tag-5 tr {
+  text-align: center;
+  font-size: 52px;
+}
+
+.big-tag-6 tr {
+  text-align: center;
+  font-size: 50px;
+}
+
+.big-tag-7 tr {
+  text-align: center;
+  font-size: 48px;
 }
 
 .medium-tag tr {
