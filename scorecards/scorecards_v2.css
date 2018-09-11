@@ -13,6 +13,13 @@ body {
 .second-row {
   font-family: Helvetica;
   font-size: 20px;
+  max-height: 20px;
+}
+
+img {
+  width: 80%;
+  display: block;
+  text-align: center;
 }
 
 .full-table-one {
@@ -84,7 +91,7 @@ body {
 
 .full-table-four td {
   border: 2px solid black;
-  height: 119px;
+  height: 118px;
   font-size: 24px;
 }
 
@@ -102,7 +109,7 @@ body {
 
 .full-table-five td {
   border: 2px solid black;
-  height: 195px;
+  height: 192px;
 }
 
 .attempt {
