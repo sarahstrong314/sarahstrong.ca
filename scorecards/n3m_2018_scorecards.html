@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang='en'>
   <head>
-    <title>No 3x3x3 Mississauga Scorecards</title>
+    <title>No 3x3x3 Mississauga 2018 Scorecards</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
     <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
@@ -28,12 +28,18 @@
     <br />
 
       <table class='second-row'>
-        <col width='380px'/>
-        <col width='10px'/>
+        <col width='2px'/>
+        <col width='70px'/>
+        <col width='2px'/>
+        <col width='245px'/>
+        <col width='2px'/>
+        <col width='190px'/>
+        <col width='2px'/>
         <col width='200px'/>
-        <col width='10px'/>
-        <col width='215px'/>
         <tr>
+          <td></td>
+          <td><img class='image'></img></td>
+          <td></td>
           <td align='center' class='event-name' style='border-bottom: 2px solid black;'></td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
@@ -137,12 +143,18 @@
     <br />
 
       <table class='second-row'>
-        <col width='380px'/>
-        <col width='10px'/>
+        <col width='2px'/>
+        <col width='70px'/>
+        <col width='2px'/>
+        <col width='245px'/>
+        <col width='2px'/>
+        <col width='190px'/>
+        <col width='2px'/>
         <col width='200px'/>
-        <col width='10px'/>
-        <col width='215px'/>
         <tr>
+          <td></td>
+          <td><img class='image'></img></td>
+          <td></td>
           <td align='center' class='event-name' style='border-bottom: 2px solid black;'></td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
@@ -233,12 +245,18 @@
     <br />
 
       <table class='second-row'>
-        <col width='380px'/>
-        <col width='10px'/>
+        <col width='2px'/>
+        <col width='70px'/>
+        <col width='2px'/>
+        <col width='245px'/>
+        <col width='2px'/>
+        <col width='190px'/>
+        <col width='2px'/>
         <col width='200px'/>
-        <col width='10px'/>
-        <col width='215px'/>
         <tr>
+          <td></td>
+          <td><img class='image'></img></td>
+          <td></td>
           <td align='center' class='event-name' style='border-bottom: 2px solid black;'></td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
@@ -330,12 +348,18 @@
     <br />
 
       <table class='second-row'>
-        <col width='380px'/>
-        <col width='10px'/>
+        <col width='2px'/>
+        <col width='70px'/>
+        <col width='2px'/>
+        <col width='245px'/>
+        <col width='2px'/>
+        <col width='190px'/>
+        <col width='2px'/>
         <col width='200px'/>
-        <col width='10px'/>
-        <col width='215px'/>
         <tr>
+          <td></td>
+          <td><img class='image'></img></td>
+          <td></td>
           <td align='center' class='event-name' style='border-bottom: 2px solid black;'></td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
@@ -416,12 +440,18 @@
     <br />
 
       <table class='second-row'>
-        <col width='380px'/>
-        <col width='10px'/>
+        <col width='2px'/>
+        <col width='70px'/>
+        <col width='2px'/>
+        <col width='245px'/>
+        <col width='2px'/>
+        <col width='190px'/>
+        <col width='2px'/>
         <col width='200px'/>
-        <col width='10px'/>
-        <col width='215px'/>
         <tr>
+          <td></td>
+          <td><img class='image'></img></td>
+          <td></td>
           <td align='center' class='event-name' style='border-bottom: 2px solid black;'></td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td align='center' class='event-round' style='border-bottom: 2px solid black;'></td>
@@ -516,6 +546,7 @@
         }
         var $newScorecard = $scorecard.clone().show();
         $newScorecard.addClass("scorecard-position-" + (i % 4));
+        $(".image", $newScorecard).attr('src', competitor.logo); // Why isn't the image showing up?
         $(".competition-name", $newScorecard).text('No 3x3x3 Mississauga 2018');
         $(".competitor-name", $newScorecard).text(competitor.name);
         $(".wca-id", $newScorecard).text(competitor.id);
