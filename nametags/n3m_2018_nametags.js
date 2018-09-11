@@ -14,7 +14,7 @@ window.competitors = [
 { name: 'Brennen Lin', id: '2016LINB01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Caden Ly', id: '2016LYCA01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Chris Thomson', id: '', country: '' ,title: 'VOLUNTEER' },
-{ name: 'Christopher Pakenham', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
+// { name: 'Christopher Pakenham', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' }, size 48
 { name: 'Colin Cayen', id: '2015CAYE02', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Colleen Geerlinks', id: '2014GEER01', country: 'Canada', title: 'STAFF' },
 { name: 'Darren Tang', id: '2018TANG01', country: 'Canada', title: 'COMPETITOR' },
@@ -51,7 +51,7 @@ window.competitors = [
 { name: 'Malcolm Zuzarte', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Marco Yang', id: '2017YANG62', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Matteo Hosdil', id: '2017HOSD01', country: 'Canada', title: 'COMPETITOR' },
-{ name: 'Matthew Krawczyk', id: '2017KRAW02', country: 'Canada', title: 'COMPETITOR' }, 
+// { name: 'Matthew Krawczyk', id: '2017KRAW02', country: 'Canada', title: 'COMPETITOR' }, size 56
 { name: 'Matthew Lee', id: '2017LEEM03', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Max Murphy', id: '2016MURP05', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Max Sun', id: '2017SUNM02', country: 'Canada', title: 'COMPETITOR' },
@@ -61,7 +61,7 @@ window.competitors = [
 { name: 'Michael Strong', id: '', country: '' ,title: 'VOLUNTEER' },
 { name: 'Michael Zheng', id: '2018ZHEN04', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Nastia Patrice', id: '2017PATR03', country: 'Canada', title: 'COMPETITOR' },
-{ name: 'Nicholas Patterson', id: '2016PATT02', country: 'Canada', title: 'COMPETITOR' },
+// { name: 'Nicholas Patterson', id: '2016PATT02', country: 'Canada', title: 'COMPETITOR' },size 56
 { name: 'Nima Bolourchian', id: '2017BOLO01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Owen Berg', id: '2018BERG03', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Paula Stan', id: '', country: '' ,title: 'VOLUNTEER' },
@@ -74,8 +74,8 @@ window.competitors = [
 { name: 'Sam Mogil', id: '2018MOGI01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Sarah Strong', id: '2007STRO01', country: 'Canada', title: 'DELEGATE' },
 { name: 'Sascha Pugar', id: '2015PUGA01', country: 'Canada', title: 'COMPETITOR' },
-{ name: 'Sawyer Featherston', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
-{ name: 'Sebastian Desaulniers', id: '2018DESA05', country: 'Canada', title: 'COMPETITOR' },
+// { name: 'Sawyer Featherston', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },size 54
+// { name: 'Sebastian Desaulniers', id: '2018DESA05', country: 'Canada', title: 'COMPETITOR' }, size 48
 { name: 'Seth Huygen', id: '2018HUYG01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Siddharth Kanwar', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Thompson Clarke', id: '2008CLAR01', country: 'Canada', title: 'COMPETITOR' },
