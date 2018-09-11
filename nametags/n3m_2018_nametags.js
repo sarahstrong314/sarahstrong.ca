@@ -51,6 +51,7 @@ window.competitors = [
 { name: 'Malcolm Zuzarte', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Marco Yang', id: '2017YANG62', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Matteo Hosdil', id: '2017HOSD01', country: 'Canada', title: 'COMPETITOR' },
+{ name: 'Matthew Krawczyk', id: '2017KRAW02', country: 'Canada', title: 'COMPETITOR' }, 
 { name: 'Matthew Lee', id: '2017LEEM03', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Max Murphy', id: '2016MURP05', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Max Sun', id: '2017SUNM02', country: 'Canada', title: 'COMPETITOR' },
