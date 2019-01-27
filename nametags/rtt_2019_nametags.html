@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Return To Toronto 2019 Nametags</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='rtt_2019_nametags.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='nametags.css'>
+    <link rel='shortcut icon' href=''>
+  </head>
+
+  <body>
+    <div class='nametag' style='display: none;'>  
+      
+      </br>  
+      <table class='medium-tag'>
+        <col width='600px'/>
+        <tr class='competition-name'></tr>
+      </table>
+      
+      </br>
+
+      <img src="rtt_2019_logo.png"></img>
+     
+      </br>
+
+      <table class='big-tag'>
+        <col width='600px'/>
+        <tr class='competitor-name'>
+        </tr>
+      </table>
+
+      <table class='big-tag-2'>
+        <col width='600px'/>
+        <tr class='competitor-name-2'>
+        </tr>
+      </table>
+
+       <table class='big-tag-4'>
+        <col width='600px'/>
+        <tr class='competitor-name-4'>
+        </tr>
+      </table>
+
+      <table class='big-tag-5'>
+        <col width='600px'/>
+        <tr class='competitor-name-5'>
+        </tr>
+      </table>
+
+      <table class='big-tag-6'>
+        <col width='600px'/>
+        <tr class='competitor-name-6'>
+        </tr>
+      </table>
+
+      <table class='big-tag-7'>
+        <col width='600px'/>
+        <tr class='competitor-name-7'>
+        </tr>
+      </table>
+
+      <table class='big-tag-0'>
+        <col width='600px'/>
+        <tr class='competitor-name-blank'>
+        </tr>
+      </table>
+
+      <table class='medium-tag'>
+        <col width='600px'/>
+        <tr class='competitor-title'></tr>
+      </table>
+
+      </br>
+
+      <table class='little-tag'>
+        <col width='600px'/>
+        <tr class='competitor-id'></tr>
+      </table>
+
+      <script>
+      var i = 0;
+      window.competitors.forEach(function(competitor) {
+        var $nametag = $(".nametag").first();
+        var $newNametag = $nametag.clone().show();
+        $(".competition-name", $newNametag).text('Return To Toronto 2019');
+
+        if (window.size4.indexOf(competitor.name) > -1) {
+          $(".competitor-name-4", $newNametag).text(competitor.name);
+        } else if (window.size6.indexOf(competitor.name) > -1) {
+          $(".competitor-name-6", $newNametag).text(competitor.name);
+        } else if (window.size5.indexOf(competitor.name) > -1) {
+          $(".competitor-name-5", $newNametag).text(competitor.name);
+        } else if (window.size7.indexOf(competitor.name) > -1) {
+          $(".competitor-name-7", $newNametag).text(competitor.name);
+        } else {
+          $(".competitor-name", $newNametag).text(competitor.name);
+        }
+
+        $(".competitor-title", $newNametag).text(competitor.title);
+        $(".competitor-id", $newNametag).text(competitor.id);
+        $("body").append($newNametag);
+        i++;
+      });
+    </script>
+  </body>
+</html>
