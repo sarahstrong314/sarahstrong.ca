@@ -145,7 +145,7 @@ window.competitors = [
 { name: 'Vera Beal', group_minx: '2 of 4', group_666: '-', group_222: '3 of 10', group_333: '6 of 12', group_444: '2 of 8' },
 { name: 'Vivian Kay', group_minx: '-', group_666: '-', group_222: '1 of 10', group_333: '2 of 12', group_444: '1 of 8' },
 { name: 'William Scully', group_minx: '2 of 4', group_666: '2 of 4', group_222: '2 of 10', group_333: '1 of 12', group_444: '2 of 8' },
-{ name: 'Yazan Al-shawaqfeh', group_minx: '-', group_666: '-', group_222: '1 of 10', group_333: '2 of 12', group_444: '1 of 8' },
+{ name: 'Yazan Al-Shawaqfeh', group_minx: '-', group_666: '-', group_222: '1 of 10', group_333: '2 of 12', group_444: '1 of 8' },
 { name: 'Yonatan Jungreis', group_minx: '-', group_666: '-', group_222: '2 of 10', group_333: '6 of 12', group_444: '-' },
 { name: 'Yuxuan Li', group_minx: '-', group_666: '-', group_222: '1 of 10', group_333: '1 of 12', group_444: '-' },
 { name: 'Zonghan Qiao', group_minx: '-', group_666: '-', group_222: '2 of 10', group_333: '2 of 12', group_444: '2 of 8' },
