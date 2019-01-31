@@ -1,7 +1,4 @@
-window.size56 = []
 window.size54 = ['Fabien Rakotonirina']
-window.size52 = []
-window.size50 = []
 window.size48 = ['Sebastian Desaulniers']
 window.size44 = ['Chris Desormeaux-Malm']
 
@@ -27,6 +24,7 @@ window.competitors = [
 { name: 'Owen Widdis', id: '2015WIDD01', country: 'USA', title: 'COMPETITOR' },
 { name: 'Sarah Strong', id: '2007STRO01', country: 'Canada', title: 'DELEGATE' },
 { name: 'Sebastian Desaulniers', id: '2018DESA05', country: 'Canada', title: 'COMPETITOR' },
-{ name: 'Taha Ben Salah', id: '2015SALA03', country: 'Tunisia', title: 'COMPETITOR' },
-{ name: 'YouBeen Lee', id: '2016LEEY02', country: 'Korea', title: 'COMPETITOR' }
+{ name: 'YouBeen Lee', id: '2016LEEY02', country: 'Korea', title: 'COMPETITOR' },
+{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
+{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 ]
