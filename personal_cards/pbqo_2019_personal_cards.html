@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>PBQ Oshawa Personal Cards</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='pbqo_2019_personal_cards.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='personal_cards.css'>
+    <link rel='shortcut icon' href=''>
+  </head>
+
+  <body>
+    <div class='personal-card' style='display: none;'>  
+    
+     <table class='top_row'>
+      <tr>
+        <td align='left' class='competitor-name'></td>
+      </tr>
+      </table>
+
+      <br  />
+      <table class='schedule'>
+        <col width='200px'/>
+        <col width='10px'/>
+        <col width='125px'/>
+        <col width='10px'/>
+        <col width='50px'/>
+        <col width='10px'/>
+        <col width='50px'/>
+        <col width='10px'/>
+        <col width='60px'/>
+        <col width='10px'/>
+        <col width='50px'/>
+        <tr>
+          <th align='center' class='event'>Event</th>
+          <th>&nbsp;</th>
+          <th align='center' class='time'>Time</th>
+          <th>&nbsp;</th>
+          <th align='center' class='group'>Group</th>
+          <th>&nbsp;</th>
+          <th align='center' class='limit'>Limit</th>
+          <th>&nbsp;</th>
+          <th align='center' class='cumulative-limit'>C. Limit</th>
+          <th>&nbsp;</th>
+          <th align='center' class='qualification'>Qualification</th>
+        </tr> 
+        <tr>
+          <td align='center' class='event'>4x4x4 BLD Final</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>8:45 - 10:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-444bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-444bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-444bf'>60:00</td>
+        </tr> 
+        <tr>
+          <td align='center' class='event'>FMC Attempt 1 of 3</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>10:00 - 11:10</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333fm'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333fm'>60:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333fm'></td>
+        </tr>   
+        <tr>
+          <td align='center' class='event'>3x3x3 BLD Round 1 of 2</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>11:10 - 12:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333bf'>20:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='qualification'></td>
+        </tr>    
+        <tr>
+          <td align='center' class='event'>Multi-BLD Attempt 1 of 2</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>12:00 - 1:10</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333mbf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333mbf'>60:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333mbf'></td>
+        </tr>
+        <tr>
+          <td align='center' class='event'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'></td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>  
+        <tr>
+          <td align='center' class='event'>FMC Attempt 2 of 3</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>2:00 - 3:10</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333fm'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333fm'>60:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333fm'></td>
+        </tr>  
+        <tr>
+          <td align='center' class='event'>Multi-BLD Attempt 2 of 2</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>3:10 - 4:20</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333mbf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333mbf'>60:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333mbf'></td>
+        </tr>
+        <tr>
+          <td align='center' class='event'>FMC Attempt 3 of 3</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>4:20 - 5:30</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333fm'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333fm'>60:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333fm'></td>
+        </tr>  
+        <tr>
+          <td align='center' class='event'>3x3x3 BLD Final</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>5:30 - 6:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-333bf-2'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-333bf-2'>10:00</td>
+          <td>&nbsp;</td>
+          <td align='center' class='c-limit-333bf-2'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='qualification'>Top 75%</td>
+        </tr>
+        <tr>
+          <td align='center' class='event'>5x5x5 BLD Final</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>6:15 - 7:30</td>
+          <td>&nbsp;</td>
+          <td align='center' class='group-555bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='cutoff-555bf'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='limit-555bf'>60:00</td>
+        </tr>
+      </table>
+
+    <br />
+    <br />
+    <br />
+
+     <table class='bottom_row'>
+      <tr>
+        <td align='left' class='link'>Live Results: http://cubecomps.com/live.php?cid=3966</td>
+      </tr>
+      <tr>
+        <td align='left' class='link'>WCA Regulations: https://www.worldcubeassociation.org/regulations</td>
+      <tr>
+    </table>
+
+    <br />
+
+
+
+     <script>
+      var i = 0;
+      window.competitors.forEach(function(competitor) {
+        var $personalCard = $(".personal-card").first();
+        var $newPersonalCard = $personalCard.clone().show();
+
+        $(".competitor-name", $newPersonalCard).text(competitor.name);
+        $(".group-222", $newPersonalCard).text(competitor.group_222);
+        $(".group-333", $newPersonalCard).text(competitor.group_333);
+        $(".group-444", $newPersonalCard).text(competitor.group_444);
+        $(".group-555", $newPersonalCard).text(competitor.group_555);
+        $(".group-666", $newPersonalCard).text(competitor.group_666);
+        $(".group-777", $newPersonalCard).text(competitor.group_777);
+        $(".group-333oh", $newPersonalCard).text(competitor.group_333oh);
+        $(".group-333ft", $newPersonalCard).text(competitor.group_333ft);
+        $(".group-333fm", $newPersonalCard).text(competitor.group_333fm);
+        $(".group-333bf", $newPersonalCard).text(competitor.group_333bf);
+        $(".group-333mbf", $newPersonalCard).text(competitor.group_333mbf);
+        $(".group-444bf", $newPersonalCard).text(competitor.group_444bf);
+        $(".group-555bf", $newPersonalCard).text(competitor.group_555bf);
+        $(".group-clock", $newPersonalCard).text(competitor.group_clock);
+        $(".group-minx", $newPersonalCard).text(competitor.group_minx);
+        $(".group-skewb", $newPersonalCard).text(competitor.group_skewb);
+        $(".group-pyram", $newPersonalCard).text(competitor.group_pyram);
+        $(".group-sq1", $newPersonalCard).text(competitor.group_sq1);
+
+        $("body").append($newPersonalCard);
+        i++;
+      });
+    </script>
+  </body>
+</html>
