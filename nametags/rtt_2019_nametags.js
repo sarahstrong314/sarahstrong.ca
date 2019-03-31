@@ -1,7 +1,12 @@
-window.size4 = ['Fabien Rakotonirina']
-window.size5 = ['Nickolas Sweetland']
-window.size6 = ['Pramathaditya Pathak', 'Yazan Al-Shawaqfeh']
-window.size7 = ['Sebastian Desaulniers', 'Jensen Belen-Brown']
+window.size58 = []
+window.size56 = []
+window.size54 = ['Fabien Rakotonirina']
+window.size52 = ['Nickolas Sweetland']
+window.size50 = ['Pramathaditya Pathak', 'Yazan Al-Shawaqfeh']
+window.size48 = ['Sebastian Desaulniers', 'Jensen Belen-Brown']
+window.size46 = []
+window.size44 = []
+window.size42 = []
 
 window.competitors = [
 { name: 'Aadi Chopra', id: 'New Competitor', country: 'Canada', title: 'COMPETITOR' },
