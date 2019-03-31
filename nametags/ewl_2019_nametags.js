@@ -1,3 +1,4 @@
+window.size58 = []
 window.size56 = ['Alexander Marmora', 'Owen Bailey-Braun', 'Sebastian Johnston']
 window.size54 = []
 window.size52 = ['Cristoff Joseph Barlis', 'Jensen Belen-Brown']
