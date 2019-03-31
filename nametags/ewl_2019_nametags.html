@@ -98,7 +98,6 @@
       </table>
 
       <script>
-      var i = 0;
       window.competitors.forEach(function(competitor) {
         var $nametag = $(".nametag").first();
         var $newNametag = $nametag.clone().show();
@@ -127,7 +126,6 @@
         $(".competitor-title", $newNametag).text(competitor.title);
         $(".competitor-id", $newNametag).text(competitor.id);
         $("body").append($newNametag);
-        i++;
       });
     </script>
   </body>
