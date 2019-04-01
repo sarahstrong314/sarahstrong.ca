@@ -1,1 +1,175 @@
+body {
+ 	font-family: Helvetica;
+ 	background-color: #fdfdfd;
+	color: black;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
 
+.title {
+	font-size: 60px;
+	text-align: left;
+	margin: 3px 10px;
+}
+
+.instructions {
+	font-size: 30px;
+	text-align: left;
+	margin: 3px 10px;
+}
+
+.randomNumber {
+	font-size: 80px;
+	text-align: left;
+	margin: 3px 10px;
+}
+
+.button128 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button64 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button32 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button16 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button8 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button4 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button2 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.button1 {
+	display: initial;
+	visibility: visible;
+	height: 90px;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit128 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit64 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit32 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit16 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit8 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit4 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit2 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.bit1 {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 30px;
+}
+
+.correct {
+	display: initial;
+	visibility: visible;
+	font-size: 30px;
+}
+
+.resetButton {
+	display: initial;
+	visibility: hidden;
+	font-size: 30px;
+}
+
+.select select {
+  background-color: lightgray;
+  border: none;
+  color: grey;
+  font-size: 22px;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+
+.sum {
+	display: initial;
+	visibility: visible;
+	width: 70px;
+	font-size: 24px;
+}
