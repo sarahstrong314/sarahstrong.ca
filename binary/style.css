@@ -90,56 +90,72 @@ body {
 }
 
 .bit128 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit64 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit32 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit16 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit8 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit4 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit2 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
 }
 
 .bit1 {
-	display: initial;
+	display: block;
+	float: left;
+	text-align: center;
 	visibility: visible;
 	width: 70px;
 	font-size: 30px;
