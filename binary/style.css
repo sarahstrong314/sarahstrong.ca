@@ -31,7 +31,7 @@ body {
 	margin: 3px 10px;
 }
 
-.button128 {
+.visibleButton {
 	display: initial;
 	visibility: visible;
 	height: 90px;
@@ -39,63 +39,15 @@ body {
 	font-size: 30px;
 }
 
-.button64 {
-	display: initial;
-	visibility: visible;
+.hiddenButton {
+	display: none;
+	visibility: hidden;
 	height: 90px;
 	width: 70px;
 	font-size: 30px;
 }
 
-.button32 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.button16 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.button8 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.button4 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.button2 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.button1 {
-	display: initial;
-	visibility: visible;
-	height: 90px;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit128 {
+.visibleBit {
 	display: block;
 	float: left;
 	text-align: center;
@@ -104,65 +56,11 @@ body {
 	font-size: 30px;
 }
 
-.bit64 {
-	display: block;
+.hiddenBit {
+	display: none;
 	float: left;
 	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit32 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit16 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit8 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit4 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit2 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
-	width: 70px;
-	font-size: 30px;
-}
-
-.bit1 {
-	display: block;
-	float: left;
-	text-align: center;
-	visibility: visible;
+	visibility: hidden;
 	width: 70px;
 	font-size: 30px;
 }

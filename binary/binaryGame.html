@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="binaryGame.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="">
   </head>
@@ -22,20 +23,21 @@
 
     </br>
 
-    <button class="button128" id="Button128" onclick="selectCard('Button128')"></button><button class="button64" id="Button64" onclick="selectCard('Button64')"></button><button class="button32" id="Button32" onclick="selectCard('Button32')"></button><button class="button16" id="Button16" onclick="selectCard('Button16')"></button><button class="button8" id="Button8" onclick="selectCard('Button8')"></button><button class="button4" id="Button4" onclick="selectCard('Button4')"></button><button class="button2" id="Button2" onclick="selectCard('Button2')"></button><button class="button1" id="Button1" onclick="selectCard('Button1')"></button>
+    <button class="visibleButton" id="Button128" onclick="selectCard('Button128')"></button><button class="visibleButton" id="Button64" onclick="selectCard('Button64')"></button><button class="visibleButton" id="Button32" onclick="selectCard('Button32')"></button><button class="visibleButton" id="Button16" onclick="selectCard('Button16')"></button><button class="visibleButton" id="Button8" onclick="selectCard('Button8')"></button><button class="visibleButton" id="Button4" onclick="selectCard('Button4')"></button><button class="visibleButton" id="Button2" onclick="selectCard('Button2')"></button><button class="visibleButton" id="Button1" onclick="selectCard('Button1')"></button>
     <p class="sum" id="Sum">Sum</p>
 
     </br>
     
-    <div class="bit128" id="Bit128">1</div>
-    <div class="bit64" id="Bit64">1</div>
-    <div class="bit32" id="Bit32">1</div>
-    <div class="bit16" id="Bit16">1</div>
-    <div class="bit8" id="Bit8">1</div>
-    <div class="bit4" id="Bit4">1</div>
-    <div class="bit2" id="Bit2">1</div>
-    <div class="bit1" id="Bit1">1</div>
+    <div class="visibleBit" id="Bit128">1</div>
+    <div class="visibleBit" id="Bit64">1</div>
+    <div class="visibleBit" id="Bit32">1</div>
+    <div class="visibleBit" id="Bit16">1</div>
+    <div class="visibleBit" id="Bit8">1</div>
+    <div class="visibleBit" id="Bit4">1</div>
+    <div class="visibleBit" id="Bit2">1</div>
+    <div class="visibleBit" id="Bit1">1</div>
 
+    </br>
     </br>
     </br>
 
@@ -85,6 +87,7 @@
       document.getElementById("Button4").innerHTML = 4;
       document.getElementById("Button2").innerHTML = 2;
       document.getElementById("Button1").innerHTML = 1;
+      document.getElementById("Explanation").innerHTML = "Each power of 2 represents a 1 or a 0 in the binary number. It's 1 if it's in the sum, and 0 if it isn't.";
       document.getElementById("SelectInstructions").innerHTML = "Number of Cards:";
 
       function setNumCards() {
@@ -126,18 +129,16 @@
       }
 
       function hide(id) {
-        document.getElementById(id).style.display = "none";
-        document.getElementById(id).style.visibility = "hidden";
-        document.getElementById("Bit" + id.substring(6, id.length)).style.display = "none";
-        document.getElementById("Bit" + id.substring(6, id.length)).style.visibility = "hidden";
+        console.log("hide " + id);
+        document.getElementById(id).className = "hiddenButton";
+        document.getElementById("Bit" + id.substring(6, id.length)).className = "hiddenBit";
 
       }
 
       function unhide(id) {
-        document.getElementById(id).style.display = "initial";
-        document.getElementById(id).style.visibility = "visible";
-        document.getElementById("Bit" + id.substring(6, id.length)).style.display = "initial";
-        document.getElementById("Bit" + id.substring(6, id.length)).style.visibility = "visible";
+        console.log("unhide " + id);
+        document.getElementById(id).className = "visibleButton";
+        document.getElementById("Bit" + id.substring(6, id.length)).className = "visibleBit";
       }
 
       function selectCard(id) {
@@ -160,7 +161,8 @@
           var id = cardIds[i];
           var num = id.substring(6, id.length);
 
-          if (document.getElementById(id).innerHTML !== ("-") && document.getElementById(id).style.visibility == "visible") {
+          if (document.getElementById(id).innerHTML !== ("-") && document.getElementById(id).className == "visibleButton") {
+            console.log(162);
             sum += parseInt(num);
           }
         }
