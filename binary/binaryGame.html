@@ -114,7 +114,7 @@
           var id = cardIds[i];
           var num = id.substring(6, id.length);
 
-          if (document.getElementById(id).innerHTML === (".")) {
+          if (document.getElementById(id).innerHTML === ("-")) {
             document.getElementById(id).innerHTML = num;
             document.getElementById("Bit" + id.substring(6, id.length)).innerHTML = 1;
           }
@@ -142,8 +142,8 @@
 
       function selectCard(id) {
         var num = id.substring(6, id.length);
-        if (document.getElementById(id).innerHTML !== (".")) {
-          document.getElementById(id).innerHTML = ".";
+        if (document.getElementById(id).innerHTML !== ("-")) {
+          document.getElementById(id).innerHTML = "-";
           document.getElementById("Bit" + num).innerHTML = 0;
         } else {
           document.getElementById(id).innerHTML = num;
@@ -160,7 +160,7 @@
           var id = cardIds[i];
           var num = id.substring(6, id.length);
 
-          if (document.getElementById(id).innerHTML !== (".") && document.getElementById(id).style.visibility == "visible") {
+          if (document.getElementById(id).innerHTML !== ("-") && document.getElementById(id).style.visibility == "visible") {
             sum += parseInt(num);
           }
         }
