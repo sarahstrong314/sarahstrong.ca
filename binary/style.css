@@ -25,6 +25,12 @@ body {
 	margin: 3px 10px;
 }
 
+.explanation {
+	font-size: 20px;
+	text-align: left;
+	margin: 3px 10px;
+}
+
 .button128 {
 	display: initial;
 	visibility: visible;
