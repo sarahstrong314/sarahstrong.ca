@@ -1,7 +1,7 @@
 window.size58 = []
 window.size56 = ['Alexander Marmora', 'Owen Bailey-Braun', 'Sebastian Johnston']
 window.size54 = []
-window.size52 = ['Cristoff Joseph Barlis', 'Jensen Belen-Brown']
+window.size52 = ['Cristoff Joseph Barlis', 'Jensen Belen-Brown', 'Christopher Saint-Dic']
 window.size50 = ['Docité Oren Schandry'] 
 window.size48 = [] 
 window.size46 = ['Brandon Arnoldo Taylor', 'Émilie Millar Desjardins', 'Zhivko Radkov Dimitrov'] 
@@ -64,7 +64,17 @@ window.competitors = [
 { name: 'Zhivko Radkov Dimitrov', id: '2017DIMI01', country: 'Canada', title: 'COMPETITOR' },
 { name: 'Chris Thomson', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Wendy Nieuwland', id: '', country: '', title: 'VOLUNTEER' },
+{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Kianna Holbein', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Parantap Bhat', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Colby White', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Samuel Bylerian', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Elodie Roy', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Christopher Saint-Dic', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Ethan Howard', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Lorie Rodrique', id: '', country: '', title: 'VOLUNTEER' },
+{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
+{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
