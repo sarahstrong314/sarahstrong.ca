@@ -592,7 +592,7 @@
         $(".event-name", $newScorecard).text(competitor.event);
         $(".event-round", $newScorecard).text(competitor.round);
         $(".group-number", $newScorecard).text('Group ' + competitor.group);
-        if (window.bo1events.includes(competitor.event)) {
+        if (window.bo1events.includes(competitor.event) ||window.cummulativeevents.includes(competitor.event) ) {
           $(".result", $newScorecard).text('Result (Stop at time limit)');
         } else {
           $(".result", $newScorecard).text('Result (DNF if over ' + competitor.limit + ' time limit)');
