@@ -2,7 +2,7 @@ window.mo3events =['6x6x6 Cube', '7x7x7 Cube', '3x3x3 Blindfolded', '4x4x4 Blind
 
 window.bo1events = ['3x3x3 Multiple Blindfolded'];
 
-window.cummulativeevents = ['4x4x4 Blindfolded'];
+window.cummulativeevents = ['4x4x4 Blindfolded', '5x5x5 Blindfolded'];
 
 window.competitors = [
 { name: 'Aryan Ved', id: '2018VEDA02', event: 'Square-1', logo: 'logo_sq1.png', round: 'Combined Final', group: '1 of 2', cutoff: '3:00', limit: '10:00' },
@@ -317,15 +317,15 @@ window.competitors = [
 { name: '', id: '', event: 'Square-1', logo: 'logo_sq1.png', round: 'Combined Final', group: '1 of 2', cutoff: '3:00', limit: '10:00' },
 { name: '', id: '', event: 'Square-1', logo: 'logo_sq1.png', round: 'Combined Final', group: '2 of 2', cutoff: '3:00', limit: '10:00' },
 { name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
 { name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
 { name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '4x4x4 Blindfolded', logo: 'logo_444bf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
 { name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
 { name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
 { name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
-{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '2 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
+{ name: '', id: '', event: '3x3x3 Multi-Blind', logo: 'logo_333mbf.png', round: 'Combined Final', group: '1 of 1', cutoff: '-', limit: '60:00' },
 ]
