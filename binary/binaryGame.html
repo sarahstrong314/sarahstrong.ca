@@ -142,16 +142,19 @@
       }
 
       function selectCard(id) {
-        var num = id.substring(6, id.length);
-        if (document.getElementById(id).innerHTML !== ("-")) {
-          document.getElementById(id).innerHTML = "-";
-          document.getElementById("Bit" + num).innerHTML = 0;
-        } else {
-          document.getElementById(id).innerHTML = num;
-          document.getElementById("Bit" + num).innerHTML = 1;
-        }
+        if (document.getElementById("Correct").innerHTML === "") {
+          var num = id.substring(6, id.length);
+          
+          if (document.getElementById(id).innerHTML !== ("-")) {
+            document.getElementById(id).innerHTML = "-";
+            document.getElementById("Bit" + num).innerHTML = 0;
+          } else {
+            document.getElementById(id).innerHTML = num;
+            document.getElementById("Bit" + num).innerHTML = 1;
+          }
 
-        calculateSum();
+          calculateSum();
+        }
       }
 
       function calculateSum() {
