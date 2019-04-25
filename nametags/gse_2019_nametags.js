@@ -97,7 +97,7 @@ window.competitors = [
 { name: 'Nate Tan', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Sara Jung', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Wendy Nieuwland', id: '', country: '', title: 'VOLUNTEER' },
-{ name: 'Catharine Benzie', id: '', country: '', title: 'VENDOR' },
+{ name: 'Catharine Benzie', id: 'Cubing Out Loud', country: '', title: 'SPONSOR & VENDOR' },
 { name: 'Sarah\'s Dad', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
