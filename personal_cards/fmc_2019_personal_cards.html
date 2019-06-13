@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>FMC 2019 Personal Cards</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='fmc_2019_personal_cards.js' charset='utf-8'></script>
+    <link rel='stylesheet' type='text/css' href='personal_cards_v2.css'>
+    <link rel='shortcut icon' href=''>
+  </head>
+
+  <body>
+    <div class='personal-card' style='display: none;'>  
+    
+     <table class='top_row'>
+      <tr>
+        <td align='left' class='competitor-name'></td>
+      </tr>
+      </table>
+
+      <br  />
+      <table class='schedule'>
+        <col width='250px'/>
+        <col width='10px'/>
+        <col width='250px'/>
+        <col width='10px'/>
+        <tr>
+          <th align='center' class='event'>Event</th>
+          <th>&nbsp;</th>
+          <th align='center' class='time'>Time</th>
+        </tr> 
+        <tr>
+          <td align='center' class='event'>FMC Attempt 1</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>10:00 - 11:00</td>
+        </tr>        
+        <tr>
+          <td align='center' class='event'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'></td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align='center' class='event'>FMC Attempt 2</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>12:00 - 1:00</td>
+        </tr>        
+        <tr>
+          <td align='center' class='event'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'></td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align='center' class='event'>FMC Attempt 3</td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'>2:00 - 3:00</td>
+        </tr>        
+        <tr>
+          <td align='center' class='event'></td>
+          <td>&nbsp;</td>
+          <td align='center' class='time'></td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+
+    <br />
+
+     <table class='bottom_row'>
+      <tr>
+        <td align='left' class='link'>Live Results: http://cubecomps.com/live.php?cid=4376</td>
+      </tr>
+      <tr>
+        <td align='left' class='link'>WCA Regulations: https://www.worldcubeassociation.org/regulations</td>
+      <tr>
+    </table>
+
+    <br />
+
+
+
+     <script>
+      var i = 0;
+      window.competitors.forEach(function(competitor) {
+        var $personalCard = $(".personal-card").first();
+        var $newPersonalCard = $personalCard.clone().show();
+
+        $(".competitor-name", $newPersonalCard).text(competitor.name + " -- FMC 2019");
+
+        $("body").append($newPersonalCard);
+        i++;
+      });
+    </script>
+  </body>
+</html>
+
+
