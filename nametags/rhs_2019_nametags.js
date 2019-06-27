@@ -80,12 +80,12 @@ window.competitors = [{ name: 'Abdullah Gulab', id: '2014GULA02', country: 'Paki
 { name: 'Rayanne Wu', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'WeiWei Deng', id: '', country: '', title: 'VOLUNTEER' },
 { name: 'Zhi Wu', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Tiffany Feng', id: '', country: '', title: 'VOLUNTEER' },
+{ name: 'Steven Liu', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
 { name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
-{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' },
-{ name: '_____________', id: '', country: '', title: 'VOLUNTEER' }
 ]
