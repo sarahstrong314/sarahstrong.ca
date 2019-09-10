@@ -65,7 +65,7 @@
           $(".competitor-title", $newNametag).text(competitor.title);
           var elem = document.getElementsByClassName("competitor-title")[i];
 
-          if ((competitor.title === "STAFF") || (competitor.title === "DELEGATE") || (competitor.title === "ORGANIZER")) {
+          if ((competitor.title === "STAFF") || (competitor.title === "DELEGATE") || (competitor.title === "ORGANIZER" || competitor.title === "SCORETAKER")) {
             elem.style.color = 'white';
             elem.style.backgroundColor = '#343434'; // jet
           } else if (competitor.title === "NEW COMPETITOR") {
