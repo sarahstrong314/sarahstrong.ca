@@ -219,6 +219,7 @@ body {
 
 .competition-name {
   text-align: center;
+  border: 2px solid black;
   font-size: 22px;
   height: 22px;
   padding: 2px;
@@ -235,13 +236,6 @@ body {
   text-align: center;
   font-size: 44px;
   height: 46px;
-  padding: 2px;
-}
-
-.competition-name {
-  text-align: center;
-  font-size: 24px;
-  height: 32px;
   padding: 2px;
 }
 
