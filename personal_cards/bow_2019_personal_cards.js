@@ -121,7 +121,7 @@ window.competitors = [
 { name: 'Nathaniel Vernon', group_333_1: '6 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_333oh_1: '2 of 6', group_333oh_2: 'TBD', group_minx_1: '2 of 4', group_minx_2: 'TBD', group_minx_3: 'TBD', group_pyram_1: '3 of 6', group_pyram_2: 'TBD' },
 { name: 'Nestor Sokhan', group_333_1: '8 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_333oh_1: '5 of 6', group_333oh_2: 'TBD', group_555_1: '4 of 4', group_555_2: 'TBD', group_minx_1: '4 of 4', group_minx_2: 'TBD', group_minx_3: 'TBD', group_pyram_1: '6 of 6', group_pyram_2: 'TBD' },
 { name: 'Newton Nguyen', group_333_1: '1 of 10', group_333_2: 'TBD', group_333_3: 'TBD' },
-{ name: 'Nicholas Patterson', group_333_1: '9 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_333oh_1: '5 of 6', group_333oh_2: 'TBD', group_pyram_1: '6 of 6', group_pyram_2: 'TBD' },
+{ name: 'Nicholas Patterson', group_333_1: '9 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_333oh_1: '5 of 6', group_333oh_2: 'TBD', group_pyram_1: '6 of 6', group_pyram_2: 'TBD', group_555_1: '2 of 4', group_555_2: 'TBD', group_minx_1: '2 of 4', group_minx_2: 'TBD', group_minx_3: 'TBD'  },
 { name: 'Nicolas de Lottinville', group_333_1: '2 of 10', group_333_2: 'TBD', group_333_3: 'TBD' },
 { name: 'Nima Bolourchian', group_333_1: '9 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_333oh_1: '5 of 6', group_333oh_2: 'TBD', group_555_1: '1 of 4', group_555_2: 'TBD', group_minx_1: '1 of 4', group_minx_2: 'TBD', group_minx_3: 'TBD', group_pyram_1: '4 of 6', group_pyram_2: 'TBD' },
 { name: 'Noah Bernstein', group_333_1: '1 of 10', group_333_2: 'TBD', group_333_3: 'TBD', group_pyram_1: '2 of 6', group_pyram_2: 'TBD' },
