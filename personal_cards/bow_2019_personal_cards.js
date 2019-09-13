@@ -187,7 +187,7 @@ window.competitors = [
 { name: 'Wendy Nieuwland' },
 { name: 'Michelle Walker' },
 { name: 'Michael Strong' },
-{ name: 'Chris Thompson'},
+{ name: 'Chris Thomson'},
 { name: 'Carla Abarca'},
 { name: 'Volunteer'},
 { name: 'Volunteer'},
