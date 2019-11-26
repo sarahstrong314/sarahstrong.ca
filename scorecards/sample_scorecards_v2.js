@@ -2,7 +2,7 @@ window.mo3events =['6x6x6 Cube', '7x7x7 Cube', '3x3x3 Blindfolded', '4x4x4 Blind
 
 window.cumulativeevents =['3x3x3 Blindfolded', '4x4x4 Blindfolded', '5x5x5 Blindfolded'];
 
-window.format333mbf = 3;
+window.format333mbf = 2;
 
 window.competitors = [
   { name: 'FirstName LastName', wca_id: 'New Competitor', live_id: '42', event: '4x4x4 Cube', logo: 'logo_444.png', round: 'Round 1 of 3', group: 'Group 3 of 4', cutoff: '2:00', limit: '5:00' },
