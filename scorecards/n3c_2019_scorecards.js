@@ -8,6 +8,10 @@ window.bo2events = [];
 
 window.bo3events = ['3x3x3 Multi-Blind'];
 
+window.sizeChanges = {
+	'David Ignacio Gonzalez Lugo': '38px',
+}
+
 window.competitors = [
 { line_1: 'Square-1', line_2: 'Round 1', line_3: 'Group 1 of 4'},
 { name: 'Abdullah Gulab', wca_id: '2014GULA02', live_id: '15', event: 'Square-1', logo: 'logo_sq1.png', round: 'Round 1', group: 'Group 1 of 4', cutoff: '2:00', limit: '10:00' },   
@@ -100,6 +104,7 @@ window.competitors = [
 { name: 'Ryan Wu', wca_id: '2017WURY01', live_id: '29', event: 'Clock', logo: 'logo_clock.png', round: 'Final', group: 'Group 4 of 4', cutoff: '1:00', limit: '10:00' },   
 { name: 'Shanglin Ye', wca_id: '2013YESH01', live_id: '63', event: 'Clock', logo: 'logo_clock.png', round: 'Final', group: 'Group 4 of 4', cutoff: '1:00', limit: '10:00' },   
 { line_1: '2x2x2 Cube', line_2: 'Round 1', line_3: 'Group 1 of 6'},     
+{ name: 'Ajeet Singh Chana', wca_id: '2019CHAN56', live_id: '28', event: '2x2x2 Cube', logo: 'logo_222.png', round: 'Round 1', group: 'Group 1 of 6', cutoff: '-', limit: '10:00' },   
 { name: 'Darian Rezvan', wca_id: 'New Competitor', live_id: '77', event: '2x2x2 Cube', logo: 'logo_222.png', round: 'Round 1', group: 'Group 1 of 6', cutoff: '-', limit: '10:00' },   
 { name: 'Dominic Majkic', wca_id: 'New Competitor', live_id: '97', event: '2x2x2 Cube', logo: 'logo_222.png', round: 'Round 1', group: 'Group 1 of 6', cutoff: '-', limit: '10:00' },   
 { name: 'Elijah Dyck', wca_id: 'New Competitor', live_id: '51', event: '2x2x2 Cube', logo: 'logo_222.png', round: 'Round 1', group: 'Group 1 of 6', cutoff: '-', limit: '10:00' },   
