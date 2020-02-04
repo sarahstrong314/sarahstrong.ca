@@ -1,0 +1,282 @@
+body {
+  font-family: Helvetica;
+  background-color: #ffffff;
+  color: black;
+  margin: 0;
+}
+
+.first-row {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.second-row {
+  font-family: Helvetica;
+  font-size: 20px;
+  max-height: 20px;
+}
+
+.id {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.image {
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+}
+
+.full-table-one {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.full-table-one th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.full-table-one td {
+  border: 2px solid black;
+  height: 60px;
+  font-size: 24px;
+}
+
+.full-table-two {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.full-table-two th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.full-table-two td {
+  border: 2px solid black;
+  height: 69px;
+  font-size: 24px;
+}
+
+.full-table-three {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.full-table-three th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.full-table-three td {
+  border: 2px solid black;
+  height: 92px;
+  font-size: 24px;
+}
+
+.full-table-four {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.full-table-four th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.full-table-four td {
+  border: 2px solid black;
+  height: 104px;
+  font-size: 24px;
+}
+
+.full-table-six {
+  font-family: Helvetica;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.full-table-six th {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.full-table-six td {
+  border: 2px solid black;
+  height: 102px;
+}
+
+.attempt {
+  font-size: 24px;
+}
+
+.mbf-result {
+  padding: 20px;
+  font-size: 17px;
+}
+
+.blank-description-0 {
+  font-size: 25px;
+}
+
+.blank-description-1 {
+  font-size: 60px;
+}
+
+.blank-description-2 {
+  font-size: 60px;
+}
+
+.blank-description-3 {
+  font-size: 60px;
+}
+
+.blank-description-4 {
+  font-size: 60px;
+}
+
+.blank-description-5 {
+  font-size: 30px;
+}
+
+.blank-description-6 {
+  font-size: 24px;
+}
+
+.blank-description-7 {
+  font-size: 24px;
+}
+
+.scorecard-one {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-two {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-three {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-four {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-six {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.scorecard-blank {
+  padding: 11px 5px;
+  border: 3px solid black;
+  width: 561px;
+  height: 726px;
+  float: left;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.competition-name {
+  text-align: center;
+  font-size: 22px;
+  height: 22px;
+  padding: 2px;
+}
+
+.id {
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 16px;
+  height: 28px;
+}
+
+.competitor-name {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 42px;
+  padding: 2px;
+}
+
+.cutoff {
+  text-align: center;
+  font-size: 15px;
+}
+
+.provisional {
+  text-align: center;
+  font-size: 15px;
+}
+
+.scorecard-position-0 {
+  margin-bottom: 49px;
+  margin-right: 49px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.scorecard-position-1 {
+  margin-bottom: 49px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: 49px;
+}
+
+.scorecard-position-2 {
+  margin-bottom: 4px;
+  margin-right: 49px;
+  margin-top: 62px;
+  margin-left: 0px;
+}
+
+.scorecard-position-3 {
+  margin-bottom: 4px;
+  margin-right: 0px;
+  margin-top: 62px;
+  margin-left: 49px;
+}
