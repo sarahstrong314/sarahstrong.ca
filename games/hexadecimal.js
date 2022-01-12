@@ -53,8 +53,7 @@ function pickQuestion() {
   newQuestion = chosenQuestions.pop()
   newAnswer = hexToDec[newQuestion];
 
-  console.log(newQuestion);
-  console.log(newAnswer);
+  console.log(newQuestion + ": " + newAnswer);
 
   question.innerHTML = "#" + newQuestion;
   displayAnswers();
@@ -139,7 +138,7 @@ function checkAnswer(correct, answer, option) {
 $(document).keypress(function (e) {
   var code = e.keyCode || e.which;
   if (code == 13 && !next.disabled) pickQuestion();
-  else if (code === 49 && !option1.disabled) checkAnswer(newAnswer, answers[0], 'Option1');
-  else if (code === 50 && !option2.disabled) checkAnswer(newAnswer, answers[1], 'Option2');
-  else if (code === 51 && !option3.disabled) checkAnswer(newAnswer, answers[2], 'Option3');
+  else if (code === 49 && !option1.disabled) checkAnswer(newAnswer, answers[0], 'option1');
+  else if (code === 50 && !option2.disabled) checkAnswer(newAnswer, answers[1], 'option2');
+  else if (code === 51 && !option3.disabled) checkAnswer(newAnswer, answers[2], 'option3');
 });
