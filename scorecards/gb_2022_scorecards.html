@@ -658,7 +658,12 @@
           $competitorFirstName.prepend($live_streamed);
         }
 
-        $(".id", $newScorecard).text(competitor.wca_id + " \xa0\xa0\xa0\xa0WCA Live ID: " + competitor.live_id);
+        if (competitor.live_id === "") {
+          $(".id", $newScorecard).text("\xa0");
+        } else {
+
+          $(".id", $newScorecard).text(competitor.wca_id + " \xa0\xa0\xa0\xa0WCA Live ID: " + competitor.live_id);
+        }
         $(".event-name", $newScorecard).text(competitor.event);
         $(".event-round", $newScorecard).text(competitor.round);
         $(".group-number", $newScorecard).text(competitor.group);
