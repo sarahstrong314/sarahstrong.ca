@@ -11,121 +11,148 @@
   </head>
 
   <body>
-    <div class="title" id="ritle">Binary Search Game</div>
+    <div class="section">
+      <div class="title" id="title">Binary Search Game</div>
 
-    </br>
+      </br>
 
-    <div class="instructions" id="instructions"></div>
+      <div class="instructions" id="instructions"></div>
 
-    </br>
+      </br>
 
-    <div class="randomAnimal" id="randomAnimal"></div>
+      <div class="randomNum" id="randomNum"></div>
 
-    </br>
+      </br>
 
-    <button class="card" id="button0" onclick="nextIndex(0)"></button>
-    <button class="card" id="button1" onclick="nextIndex(1)"></button>
-    <button class="card" id="button2" onclick="nextIndex(2)"></button>
-    <button class="card" id="button3" onclick="nextIndex(3)"></button>
-    <button class="card" id="button4" onclick="nextIndex(4)"></button>
-    <button class="card" id="button5" onclick="nextIndex(5)"></button>
-    <button class="card" id="button6" onclick="nextIndex(6)"></button>
-    <button class="card" id="button7" onclick="nextIndex(7)"></button>
-    <button class="card" id="button8" onclick="nextIndex(8)"></button>
-    <button class="card" id="button9" onclick="nextIndex(9)"></button>
-    <button class="card" id="button10" onclick="nextIndex(10)"></button>
-    <button class="card" id="button11" onclick="nextIndex(11)"></button>
-    <button class="card" id="button12" onclick="nextIndex(12)"></button>
-    <button class="card" id="button13" onclick="nextIndex(13)"></button>
-    <button class="card" id="button14" onclick="nextIndex(14)"></button>
+      <!-- <div class="buttons"> -->
+        <button class="card" id="button0" onclick="nextIndex(0)"></button>
+        <button class="card" id="button1" onclick="nextIndex(1)"></button>
+        <button class="card" id="button2" onclick="nextIndex(2)"></button>
+        <button class="card" id="button3" onclick="nextIndex(3)"></button>
+        <button class="card" id="button4" onclick="nextIndex(4)"></button>
+        <button class="card" id="button5" onclick="nextIndex(5)"></button>
+        <button class="card" id="button6" onclick="nextIndex(6)"></button>
+        <button class="card" id="button7" onclick="nextIndex(7)"></button>
+        <button class="card" id="button8" onclick="nextIndex(8)"></button>
+        <button class="card" id="button9" onclick="nextIndex(9)"></button>
+        <button class="card" id="button10" onclick="nextIndex(10)"></button>
+        <button class="card" id="button11" onclick="nextIndex(11)"></button>
+        <button class="card" id="button12" onclick="nextIndex(12)"></button>
+        <button class="card" id="button13" onclick="nextIndex(13)"></button>
+        <button class="card" id="button14" onclick="nextIndex(14)"></button>
 
-    </br>
-    </br>
+        </br>
 
-    <div class="update" id="update">&nbsp;</div>
+        <button disabled class="label" id="label0">0</button>
+        <button disabled class="label" id="label1">1</button>
+        <button disabled class="label" id="label2">2</button>
+        <button disabled class="label" id="label3">3</button>
+        <button disabled class="label" id="label4">4</button>
+        <button disabled class="label" id="label5">5</button>
+        <button disabled class="label" id="label6">6</button>
+        <button disabled class="label" id="label7">7</button>
+        <button disabled class="label" id="label8">8</button>
+        <button disabled class="label" id="label9">9</button>
+        <button disabled class="label" id="label10">10</button>
+        <button disabled class="label" id="label11">11</button>
+        <button disabled class="label" id="label12">12</button>
+        <button disabled class="label" id="label13">13</button>
+        <button disabled class="label" id="label14">14</button>
+      <!-- </div> -->
 
-    </br>
+      </br>
+      </br>
 
-    <button class="playAgainButton" id="playAgainButton" onclick="setCards()">Play Again</button>
+      <div class="update" id="update">&nbsp;</div>
 
-    <script>
-      let animals = ["Anteater", "Badger", "Bat", "Bird", "Buffalo", "Bull", "Camel", "Capybara", "Cat", "Cobra", "Crab", "Cricket", "Crocodile", "Dog", "Dolphin", "Donkey", "Elephant", "Frog", "Gecko", "Hedgehog", "Hippo", "Iguana", "Lemming", "Lemur", "Leopard", "Lizard", "Lobster", "Monkey", "Moose", "Narwhal", "Octopus", "Oyster", "Panda", "Panther", "Penguin", "Python", "Skink", "Skunk", "Snake", "Squid", "Squirrel", "Starfish", "Toad", "Tortoise", "Turtle", "Zebra"]
+      </br>
 
-      let cardIds = ["Button0", "Button1", "Button2", "Button3", "Button4", "Button5", "Button6", "Button7", "Button8", "Button9", "Button10", "Button11", "Button12", "Button13", "Button14"];
+      <button class="playAgainButton" id="playAgainButton" onclick="setCards()">Play Again</button>
 
-      let randAnimal = "";
-      let randomIndex = 7;
-      let low = 0;
-      let high = 14;
+      <script>
 
-      document.getElementById("instructions").innerHTML = "Find the animal below using a binary search. The animal cards are in alphabetical order";
+        let numbers = [];
 
-      setCards();
+        let cardIds = ["Button0", "Button1", "Button2", "Button3", "Button4", "Button5", "Button6", "Button7", "Button8", "Button9", "Button10", "Button11", "Button12", "Button13", "Button14"];
 
-      function setCards() {
-        low = 0;
-        high = 14;
-        document.getElementById("update").innerHTML = "";
-        document.getElementById("playAgainButton").disabled = true;
-        selection = [];
-        while (selection.length != 15) {
-          let candidate = animals[Math.floor(Math.random() * animals.length)];
-          if (!selection.includes(candidate)) {
-            selection.push(candidate);
-          }
-        }
-        selection.sort();
-        randomIndex = 7;
-        while (randomIndex == 7) {
-          randomIndex = Math.floor(Math.random() * 15);
-        }
-        randAnimal = selection[randomIndex];
-        console.log(randAnimal + " " + randomIndex)
-        for (let i = 0; i < 15; i++) {
-          document.getElementById("button" + i).innerHTML = i;
-          document.getElementById("button" + i).disabled = false;
-        }
-        document.getElementById("randomAnimal").innerHTML = `<i>${randAnimal}</i>`;
-      }
+        let randNum = 0;
+        let randomIndex = 7;
+        let low = 0;
+        let high = 14;
+        let guesses = 0;
 
-      function nextIndex(guess) {
-        let correct = (low + high)/2;
-        if (guess === correct) {
-          let animal = selection[correct];
-          if (randomIndex == correct) {
-            document.getElementById("update").innerHTML = `Yay! You found ${randAnimal}!`;
-            document.getElementById("playAgainButton").disabled = false;
-            for (let i = 0; i < 15; i++) {
-              document.getElementById("button" + i).innerHTML = selection[i];
-              document.getElementById("button" + i).disabled = true;
+        document.getElementById("instructions").innerHTML = "Find the number below using a <strong>binary search</strong>. The numbers are in ascending order.";
+
+        setCards();
+
+        function setCards() {
+          guesses = 0;
+          low = 0;
+          high = 14;
+          numbers = []
+          document.getElementById("update").innerHTML = "";
+          document.getElementById("playAgainButton").style.visibility = "hidden";
+          min = [0, 1000, 2000, 3000, 4000][Math.floor(Math.random() * 5)];
+          max = [0, 1000, 2000, 3000, 4000][Math.floor(Math.random() * 5)];
+          while (numbers.length != 15) {
+            let candidate = Math.floor(Math.random() * min) - Math.floor(Math.random() * max);
+            if (!numbers.includes(candidate)) {
+              numbers.push(candidate);
             }
           }
-          else if (randomIndex < correct) {
-            document.getElementById("update").innerHTML = `You found ${animal}. Keep going to find ${randAnimal}!`;
-            for (let i = correct; i < 15; i++) {
-              document.getElementById("button" + i).innerHTML = "x";
-              document.getElementById("button" + i).disabled = true;
-            }
-            document.getElementById("button" + correct).innerHTML = selection[correct];
-            high = correct-1;
-          } else {
-            document.getElementById("update").innerHTML = `You found ${animal}. Keep going to find ${randAnimal}!`;
-            for (let i = 0; i <= correct; i++) {
-              document.getElementById("button" + i).innerHTML = "x";
-              document.getElementById("button" + i).disabled = true;
-            }
-            document.getElementById("button" + correct).innerHTML = selection[correct];
-            low = correct+1;
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          randomIndex = 7;
+          while (randomIndex == 7) {
+            randomIndex = Math.floor(Math.random() * 15);
           }
-        } else {
-          document.getElementById("update").innerHTML = "That's not a binary search. Start over.";
+          randNum = numbers[randomIndex];
+          console.log(randNum + " " + randomIndex)
           for (let i = 0; i < 15; i++) {
-            document.getElementById("button" + i).disabled = true;
+            document.getElementById("button" + i).innerHTML = "?";
+            document.getElementById("button" + i).disabled = false;
           }
-          document.getElementById("playAgainButton").disabled = false;
+          document.getElementById("randomNum").innerHTML = `${randNum}`;
         }
-      }
 
-    </script>
+        function nextIndex(guess) {
+          guesses += 1
+          let correct = (low + high)/2;
+          if (guess === correct) {
+            let num = numbers[correct];
+            if (randomIndex == correct) {
+              document.getElementById("update").innerHTML = `Yay! You found ${randNum} in ${guesses} guesses!`;
+              document.getElementById("playAgainButton").style.visibility = "visible";
+              for (let i = 0; i < 15; i++) {
+                document.getElementById("button" + i).innerHTML = numbers[i];
+                document.getElementById("button" + i).disabled = true;
+              }
+            }
+            else if (randomIndex < correct) {
+              document.getElementById("update").innerHTML = `You found ${num}. Keep going to find ${randNum}!`;
+              for (let i = correct; i < 15; i++) {
+                document.getElementById("button" + i).disabled = true;
+              }
+              document.getElementById("button" + correct).innerHTML = numbers[correct];
+              high = correct-1;
+            } else {
+              document.getElementById("update").innerHTML = `You found ${num}. Keep going to find ${randNum}!`;
+              for (let i = 0; i <= correct; i++) {
+                document.getElementById("button" + i).disabled = true;
+              }
+              document.getElementById("button" + correct).innerHTML = numbers[correct];
+              low = correct+1;
+            }
+          } else {
+            document.getElementById("update").innerHTML = "That's not a binary search. Next time, pick the middle available card.";
+            for (let i = 0; i < 15; i++) {
+              document.getElementById("button" + i).disabled = true;
+            }
+            document.getElementById("playAgainButton").style.visibility = "visible";
+          }
+        }
+      </script>
+    </div>
   </body>
 </html>
