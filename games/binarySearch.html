@@ -84,10 +84,10 @@
           numbers = []
           document.getElementById("update").innerHTML = "";
           document.getElementById("playAgainButton").style.visibility = "hidden";
-          seed1 = (Math.floor(Math.random() * 5) + 5) * 1000;
-          seed2 = Math.floor(Math.random() * 5) * 1000;
+          max = (Math.floor(Math.random() * 5) + 5) * 1000;
+          min = Math.floor(Math.random() * 5) * 1000;
           while (numbers.length != 15) {
-            let candidate = Math.floor(Math.random() * seed1) - Math.floor(Math.random() * seed2);
+            let candidate = Math.floor(Math.random() * (max - min + 1) + min);
             if (!numbers.includes(candidate)) {
               numbers.push(candidate);
             }
