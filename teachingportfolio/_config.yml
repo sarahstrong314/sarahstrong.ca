@@ -1,5 +1,0 @@
-name: Miss Strong's Teaching Profile
-markdown: redcarpet
-exclude: ['TODO', 'README.md', 'Gemfile', 'Gemfile.lock']
-gems:
-  - jekyll-redirect-from
