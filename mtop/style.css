@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.center-top {
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-bottom {
+  margin: 0;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#answer-field {
+  font-size:24px;
+  border: "#333399";
+}
+
+#answer-form {
+  visibility: hidden;
+  border-style: solid;
+  border-color: "#333399";
+}
+
+#submit-button {
+  border-color: "#333399"; 
+  font-family: Tahoma;  
+  border-radius: 8px;
+  font-size: 24px; 
+  background-color:#eeeeee;
+  margin: auto;
+}
