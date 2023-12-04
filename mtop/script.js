@@ -102,13 +102,13 @@ function initFeudVars() {
   correct = 0;
   gameOver = false;
   answerInfo = {
-    // answer: [points, xValue, yValue]
-    "privilege & oppression": [32, width/2-234, 205],
-    "student voice": [28, width/2-234, 273],
-    "lived experience": [20, width/2-234, 340],
+    // answer: [points, xValue, yValue]    
+    "privilege & oppression": [28, width/2-234, 205],
+    "student voice": [24, width/2-234, 273],
+    "freedom": [18, width/2-234, 340],
     "critical thinking": [8, width/2-234, 407],
-    "risk-taking": [5, width/2+10, 205],
-    "self-actualization": [3, width/2+10, 273],
+    "excitement": [5, width/2+10, 205],
+    "risk-taking": [3, width/2+10, 273],
   };
 }
 
@@ -298,7 +298,7 @@ function part4And5() {
       main.textAlign(CENTER, CENTER);
       main.noStroke();
       main.textSize(25);
-      main.text("Part 4 & 5:\n\nWhy did I choose this modality?\n\nWhat did I learn from this experience?.", width/2, height/2);
+      main.text("Part 4 & 5:\n\nWhy did I choose this modality?\n\nWhat did I learn from this experience?", width/2, height/2);
       break;
     default:
       print("here");
